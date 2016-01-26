@@ -1,0 +1,115 @@
+﻿Log file open, 01/26/16 19:42:54
+LogInit:Display: Running engine for game: TAG_HEUER
+LogInit: Version: 4.7.6-0+++depot+UE4-Releases+4.7
+LogInit: API Version: 0
+LogInit: Compiled (64-bit): Nov 17 2015 19:42:46
+LogInit: Compiled with Visual C++: 18.00.40629.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.7
+LogInit: Command line:  
+LogInit: Base directory: C:/UnrealEngine-4.7/Engine/Binaries/Win64/
+LogInit: Rocket: 0
+[2016.01.26-18.42.54:774][  0]LogTaskGraph: Started task graph with 3 named threads and 8 total threads.
+[2016.01.26-18.42.54:849][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2016.01.26-18.42.54:866][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.01.26-18.42.54:876][  0]LogInit: Object subsystem initialized
+[2016.01.26-18.42.54:883][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2016.01.26-18.42.54:883][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/XperienciaVirtual/Documents/Unreal Projects/TagHeuer/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2016.01.26-18.42.54:883][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2016.01.26-18.42.54:883][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/XperienciaVirtual/Documents/Unreal Projects/TagHeuer/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2016.01.26-18.42.54:883][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2016.01.26-18.42.54:883][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/XperienciaVirtual/Documents/Unreal Projects/TagHeuer/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2016.01.26-18.42.54:886][  0]LogInit: Selected Device Profile: [Windows]
+[2016.01.26-18.42.54:886][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.01.26-18.42.54:892][  0]LogInit: Computer: XPERIENCIA002
+[2016.01.26-18.42.54:892][  0]LogInit: User: XperienciaVirtual
+[2016.01.26-18.42.54:892][  0]LogInit: CPU Page size=4096, Cores=6
+[2016.01.26-18.42.54:892][  0]LogInit: High frequency timer resolution =3.222653 MHz
+[2016.01.26-18.42.54:892][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx) Virtual=131072.0GB
+[2016.01.26-18.42.54:893][  0]LogMemory: Platform Memory Stats for Windows
+[2016.01.26-18.42.54:893][  0]LogMemory: Process Physical Memory: 45.79 MB used, 45.79 MB peak
+[2016.01.26-18.42.54:893][  0]LogMemory: Process Virtual Memory: 25.50 MB used, 25.50 MB peak
+[2016.01.26-18.42.54:893][  0]LogMemory: Physical Memory: 2311.24 MB used, 16279.25 MB total
+[2016.01.26-18.42.54:893][  0]LogMemory: Virtual Memory: 290.13 MB used, 134217728.00 MB total
+[2016.01.26-18.42.54:926][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 970 (Feature Level 11_0)
+[2016.01.26-18.42.54:926][  0]LogD3D11RHI: Adapter has 3975MB of dedicated video memory, 0MB of dedicated system memory, and 8139MB of shared system memory, 1 output[s]
+[2016.01.26-18.42.54:929][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.01.26-18.42.54:929][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2016.01.26-18.42.54:929][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.01.26-18.42.54:935][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.01.26-18.42.54:946][  0]LogD3D11RHI: Async texture creation enabled
+[2016.01.26-18.42.55:079][  0]LogTextLocalizationManager: The requested culture ('es_ES') has no localization data; parent culture's ('es') localization data will be used.
+[2016.01.26-18.42.55:117][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Resource: (C:/UnrealEngine-4.7/Engine/Content/Localization/Editor/es/Editor.locres) Hash: (-630476809) String: (Importar a {0}...)
+Resource: (C:/UnrealEngine-4.7/Engine/Content/Localization/Editor/es/Editor.locres) Hash: (1271782899) String: (Importa un activo desde el archivo a esta carpeta.)
+[2016.01.26-18.42.55:167][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.01.26-18.42.57:271][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.01.26-18.42.57:719][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.01.26-18.42.57:771][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.01.26-18.42.57:809][  0]LogDerivedDataCache: Loaded boot cache 0.04s 39MB ../../../../Users/XperienciaVirtual/Documents/Unreal Projects/TagHeuer/DerivedDataCache/Boot.ddc.
+[2016.01.26-18.42.57:809][  0]LogDerivedDataCache:Display: Loaded Boot cache: ../../../../Users/XperienciaVirtual/Documents/Unreal Projects/TagHeuer/DerivedDataCache/Boot.ddc
+[2016.01.26-18.42.57:809][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../Users/XperienciaVirtual/Documents/Unreal Projects/TagHeuer/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.01.26-18.42.57:809][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.01.26-18.42.57:809][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnginePak pak cache file ../../../Engine/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.01.26-18.42.57:809][  0]LogDerivedDataCache: Unable to find inner node EnginePak for hierarchical cache Hierarchy.
+[2016.01.26-18.42.57:821][  0]LogDerivedDataCache: Using Local data cache path ../../../Engine/DerivedDataCache: Writable
+[2016.01.26-18.42.57:821][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2016.01.26-18.42.57:821][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2016.01.26-18.42.58:315][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.01.26-18.42.58:315][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.01.26-18.42.58:783][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.01.26-18.42.58:857][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2016.01.26-18.43.00:039][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.01.26-18.43.00:250][  0]SourceControl: Información El control de código fuente está desactivado
+[2016.01.26-18.43.00:250][  0]SourceControl: Información El control de código fuente está desactivado
+[2016.01.26-18.43.00:250][  0]SourceControl: Información El control de código fuente está desactivado
+[2016.01.26-18.43.00:250][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2016.01.26-18.43.00:250][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2016.01.26-18.43.00:257][  0]SourceControl: Información El control de código fuente está desactivado
+[2016.01.26-18.43.00:436][  0]LogObj: 24234 objects as part of root set at end of initial load.
+[2016.01.26-18.43.00:436][  0]LogUObjectAllocator: 5137560 out of 0 bytes used by permanent object pool.
+[2016.01.26-18.43.00:528][  0]LogEngine: Initializing Engine...
+[2016.01.26-18.43.00:530][  0]LogHMD:Warning: HMD Oculus Rift DK2, Monitor , res = 1920 x 1080, windowPos = {0, 0}
+[2016.01.26-18.43.00:531][  0]LogHMD: Oculus plugin initialized. Version: 4.7.6-0+++depot+UE4-Releases+4.7, LibOVR: 0.4.4, built Nov 17 2015, 19:45:18
+[2016.01.26-18.43.00:693][  0]LogInit: XAudio2 using 'Altavoces (4- Dispositivo de High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.01.26-18.43.00:726][  0]LogInit: FAudioDevice initialized.
+[2016.01.26-18.43.00:775][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.01.26-18.43.00:795][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB ../../../../Users/XperienciaVirtual/Documents/Unreal Projects/TagHeuer/DerivedDataCache/Boot.ddc.
+[2016.01.26-18.43.00:799][  0]LogInit: Texture streaming: Enabled
+[2016.01.26-18.43.00:913][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.01.26-18.43.00:913][  0]LogAnalytics: ET APIKey = UnrealEngine.Release. APIServer = http://etsource.epicgames.com/ET2/. AppVersion = 4.7.6-0+++depot+UE4-Releases+4.7
+[2016.01.26-18.43.00:913][  0]LogAnalytics: SetUserId 9e2c9eac49d0852610bc5d9a72027147|993bd6500af24810ad7ff9f04b6bd5ef|4be3faee-6d8a-4403-911b-acde10c024cf
+[2016.01.26-18.43.00:914][  0]LogAnalytics: AnalyticsET::StartSession [UnrealEngine.Release]
+[2016.01.26-18.43.00:931][  0]LogInit: Transaction tracking system initialized
+[2016.01.26-18.43.00:977][  0]OCULUS: [From Service] [Sensor2Impl] Lost 16 IMU samples: 18011 2 18
+[2016.01.26-18.43.01:098][  0]OCULUS: [From Service] [ExternalCamera] Skipped 2 frames
+[2016.01.26-18.43.01:098][  0]BlueprintLog: New page: Cargar el editor
+[2016.01.26-18.43.01:132][  0]LogAssetRegistry: FAssetRegistry took 0.0116 seconds to start up
+[2016.01.26-18.43.01:132][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2016.01.26-18.43.01:644][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.01.26-18.43.01:972][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.01.26-18.43.02:226][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Regular.ttf'
+[2016.01.26-18.43.02:226][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Bold.ttf'
+[2016.01.26-18.43.02:232][  0]LogConsoleResponse:Display: 
+[2016.01.26-18.43.02:418][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.01.26-18.43.02:559][  0]SourceControl: Información El control de código fuente está desactivado
+[2016.01.26-18.43.02:560][  0]Cmd: MAP LOAD FILE="../../../../Users/XperienciaVirtual/Documents/Unreal Projects/TagHeuer/Content/Maps/TAG.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.01.26-18.43.02:560][  0]LightingResults: New page: Diseñar la iluminación
+[2016.01.26-18.43.02:573][  0]MapCheck: New page: Revisión del mapa
+[2016.01.26-18.43.02:573][  0]LightingResults: New page: Diseñar la iluminación
+[2016.01.26-18.43.02:581][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009000476200
+[2016.01.26-18.43.03:367][  0]LogMaterial: Missing cached shader map for material Black_Matte, compiling. 
+[2016.01.26-18.43.03:401][  0]LogMaterial: Missing cached shader map for material Black_In, compiling. 
+[2016.01.26-18.43.03:418][  0]LogMaterial: Missing cached shader map for material Belt, compiling. 
+[2016.01.26-18.43.03:435][  0]LogMaterial: Missing cached shader map for material Gray_Metal, compiling. 
+[2016.01.26-18.43.03:455][  0]LogMaterial: Missing cached shader map for material Glass, compiling. 
+[2016.01.26-18.43.03:475][  0]LogMaterial: Missing cached shader map for material GrayIn, compiling. 
+[2016.01.26-18.43.03:494][  0]LogMaterial: Missing cached shader map for material Red, compiling. 
+[2016.01.26-18.43.03:513][  0]LogMaterial: Missing cached shader map for material WHite, compiling. 
+[2016.01.26-18.43.03:534][  0]LogTexture:Display: Generando texturas: HQ_Lightmap0_1 (AutoDXT)
+[2016.01.26-18.43.03:540][  0]LogTexture:Display: Generando texturas: HQ_Lightmap1_2 (AutoDXT)
+[2016.01.26-18.43.03:542][  0]LogTexture:Display: Generando texturas: LQ_Lightmap_0_1 (DXT1)
+[2016.01.26-18.43.03:547][  0]LogTexture:Display: Generando texturas: LQ_Lightmap_1_2 (DXT1)
+[2016.01.26-18.43.03:548][  0]LogTexture:Display: Generando texturas: ShadowMapTexture2D_0 (BGRA8)
+[2016.01.26-18.43.03:550][  0]LogTexture:Display: Generando texturas: ShadowMapTexture2D_3 (BGRA8)
+[2016.01.26-18.43.03:576][  0]LogEditorServer:
