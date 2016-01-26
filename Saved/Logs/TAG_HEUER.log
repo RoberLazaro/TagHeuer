@@ -1,4 +1,4 @@
-﻿Log file open, 01/26/16 11:29:07
+﻿Log file open, 01/26/16 12:44:08
 LogInit:Display: Running engine for game: TAG_HEUER
 LogInit: Version: 4.7.6-0+++depot+UE4-Releases+4.7
 LogInit: API Version: 0
@@ -9,148 +9,1406 @@ LogInit: Branch Name: ++depot+UE4-Releases+4.7
 LogInit: Command line:  
 LogInit: Base directory: C:/UnrealEngine-4.7/Engine/Binaries/Win64/
 LogInit: Rocket: 0
-[2016.01.26-10.29.07:046][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
-[2016.01.26-10.29.07:094][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
-[2016.01.26-10.29.07:109][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
-[2016.01.26-10.29.07:117][  0]LogInit: Object subsystem initialized
-[2016.01.26-10.29.07:126][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
-[2016.01.26-10.29.07:126][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/XperienciaRender/Documents/Unreal Projects/TAG_HEUER/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
-[2016.01.26-10.29.07:126][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
-[2016.01.26-10.29.07:126][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/XperienciaRender/Documents/Unreal Projects/TAG_HEUER/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
-[2016.01.26-10.29.07:126][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
-[2016.01.26-10.29.07:126][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/XperienciaRender/Documents/Unreal Projects/TAG_HEUER/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
-[2016.01.26-10.29.07:132][  0]LogInit: Selected Device Profile: [Windows]
-[2016.01.26-10.29.07:132][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2016.01.26-10.29.07:136][  0]LogInit: Computer: XVIRTUALRENDER
-[2016.01.26-10.29.07:137][  0]LogInit: User: XperienciaRender
-[2016.01.26-10.29.07:137][  0]LogInit: CPU Page size=4096, Cores=4
-[2016.01.26-10.29.07:137][  0]LogInit: High frequency timer resolution =3.914055 MHz
-[2016.01.26-10.29.07:137][  0]LogMemory: Memory total: Physical=32.0GB (32GB approx) Virtual=8192.0GB
-[2016.01.26-10.29.07:137][  0]LogMemory: Platform Memory Stats for Windows
-[2016.01.26-10.29.07:137][  0]LogMemory: Process Physical Memory: 45.39 MB used, 45.39 MB peak
-[2016.01.26-10.29.07:137][  0]LogMemory: Process Virtual Memory: 25.44 MB used, 25.44 MB peak
-[2016.01.26-10.29.07:137][  0]LogMemory: Physical Memory: 2914.57 MB used, 32720.31 MB total
-[2016.01.26-10.29.07:137][  0]LogMemory: Virtual Memory: 289.16 MB used, 8388608.00 MB total
-[2016.01.26-10.29.07:154][  0]LogD3D11RHI: Found D3D11 adapter 0: AMD Radeon (TM) R9 Fury Series (Feature Level 11_0)
-[2016.01.26-10.29.07:154][  0]LogD3D11RHI: Adapter has 4070MB of dedicated video memory, 0MB of dedicated system memory, and 3840MB of shared system memory, 1 output[s]
-[2016.01.26-10.29.07:155][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
-[2016.01.26-10.29.07:155][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
-[2016.01.26-10.29.07:155][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
-[2016.01.26-10.29.07:159][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2016.01.26-10.29.07:167][  0]LogD3D11RHI: Async texture creation disabled: no driver support
-[2016.01.26-10.29.07:279][  0]LogTextLocalizationManager: The requested culture ('es_ES') has no localization data; parent culture's ('es') localization data will be used.
-[2016.01.26-10.29.07:309][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+[2016.01.26-11.44.08:817][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
+[2016.01.26-11.44.08:866][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2016.01.26-11.44.08:873][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.01.26-11.44.08:879][  0]LogInit: Object subsystem initialized
+[2016.01.26-11.44.08:880][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2016.01.26-11.44.08:880][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/XperienciaRender/Documents/Unreal Projects/TAG_HEUER/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2016.01.26-11.44.08:880][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2016.01.26-11.44.08:880][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/XperienciaRender/Documents/Unreal Projects/TAG_HEUER/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2016.01.26-11.44.08:880][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2016.01.26-11.44.08:880][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/XperienciaRender/Documents/Unreal Projects/TAG_HEUER/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2016.01.26-11.44.08:881][  0]LogInit: Selected Device Profile: [Windows]
+[2016.01.26-11.44.08:881][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.01.26-11.44.08:884][  0]LogInit: Computer: XVIRTUALRENDER
+[2016.01.26-11.44.08:884][  0]LogInit: User: XperienciaRender
+[2016.01.26-11.44.08:884][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.01.26-11.44.08:884][  0]LogInit: High frequency timer resolution =3.914055 MHz
+[2016.01.26-11.44.08:884][  0]LogMemory: Memory total: Physical=32.0GB (32GB approx) Virtual=8192.0GB
+[2016.01.26-11.44.08:884][  0]LogMemory: Platform Memory Stats for Windows
+[2016.01.26-11.44.08:884][  0]LogMemory: Process Physical Memory: 45.43 MB used, 45.43 MB peak
+[2016.01.26-11.44.08:884][  0]LogMemory: Process Virtual Memory: 25.43 MB used, 25.44 MB peak
+[2016.01.26-11.44.08:884][  0]LogMemory: Physical Memory: 2685.40 MB used, 32720.31 MB total
+[2016.01.26-11.44.08:884][  0]LogMemory: Virtual Memory: 289.16 MB used, 8388608.00 MB total
+[2016.01.26-11.44.08:903][  0]LogD3D11RHI: Found D3D11 adapter 0: AMD Radeon (TM) R9 Fury Series (Feature Level 11_0)
+[2016.01.26-11.44.08:903][  0]LogD3D11RHI: Adapter has 4070MB of dedicated video memory, 0MB of dedicated system memory, and 3840MB of shared system memory, 1 output[s]
+[2016.01.26-11.44.08:906][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.01.26-11.44.08:906][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2016.01.26-11.44.08:906][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.01.26-11.44.08:911][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.01.26-11.44.08:919][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2016.01.26-11.44.08:959][  0]LogTextLocalizationManager: The requested culture ('es_ES') has no localization data; parent culture's ('es') localization data will be used.
+[2016.01.26-11.44.08:986][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
 Resource: (C:/UnrealEngine-4.7/Engine/Content/Localization/Editor/es/Editor.locres) Hash: (-630476809) String: (Importar a {0}...)
 Resource: (C:/UnrealEngine-4.7/Engine/Content/Localization/Editor/es/Editor.locres) Hash: (1271782899) String: (Importa un activo desde el archivo a esta carpeta.)
-[2016.01.26-10.29.07:345][  0]LogContentStreaming: Texture pool size is 0.000000MB
-[2016.01.26-10.29.08:929][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2016.01.26-10.29.09:264][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2016.01.26-10.29.09:304][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2016.01.26-10.29.09:416][  0]LogDerivedDataCache: Loaded boot cache 0.11s 39MB ../../../../Users/XperienciaRender/Documents/Unreal Projects/TAG_HEUER/DerivedDataCache/Boot.ddc.
-[2016.01.26-10.29.09:416][  0]LogDerivedDataCache:Display: Loaded Boot cache: ../../../../Users/XperienciaRender/Documents/Unreal Projects/TAG_HEUER/DerivedDataCache/Boot.ddc
-[2016.01.26-10.29.09:416][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../Users/XperienciaRender/Documents/Unreal Projects/TAG_HEUER/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2016.01.26-10.29.09:416][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2016.01.26-10.29.09:416][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnginePak pak cache file ../../../Engine/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2016.01.26-10.29.09:416][  0]LogDerivedDataCache: Unable to find inner node EnginePak for hierarchical cache Hierarchy.
-[2016.01.26-10.29.09:428][  0]LogDerivedDataCache: Using Local data cache path ../../../Engine/DerivedDataCache: Writable
-[2016.01.26-10.29.09:428][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2016.01.26-10.29.09:428][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2016.01.26-10.29.09:951][  0]LogMeshUtilities: No automatic mesh reduction module available
-[2016.01.26-10.29.09:951][  0]LogMeshUtilities: No automatic mesh merging module available
-[2016.01.26-10.29.10:333][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2016.01.26-10.29.10:386][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
-[2016.01.26-10.29.11:279][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2016.01.26-10.29.11:548][  0]SourceControl: Información El control de código fuente está desactivado
-[2016.01.26-10.29.11:548][  0]SourceControl: Información El control de código fuente está desactivado
-[2016.01.26-10.29.11:548][  0]SourceControl: Información El control de código fuente está desactivado
-[2016.01.26-10.29.11:548][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
-[2016.01.26-10.29.11:548][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
-[2016.01.26-10.29.11:553][  0]SourceControl: Información El control de código fuente está desactivado
-[2016.01.26-10.29.11:686][  0]LogObj: 24234 objects as part of root set at end of initial load.
-[2016.01.26-10.29.11:686][  0]LogUObjectAllocator: 5137560 out of 0 bytes used by permanent object pool.
-[2016.01.26-10.29.11:762][  0]LogEngine: Initializing Engine...
-[2016.01.26-10.29.11:763][  0]LogHMD:Warning: HMD Oculus Rift DK2, Monitor , res = 1920 x 1080, windowPos = {0, 0}
-[2016.01.26-10.29.11:764][  0]LogHMD: Oculus plugin initialized. Version: 4.7.6-0+++depot+UE4-Releases+4.7, LibOVR: 0.4.4, built Nov 17 2015, 19:45:18
-[2016.01.26-10.29.11:876][  0]LogInit: XAudio2 using 'Audio digital (HDMI) (2- Dispositivo de High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2016.01.26-10.29.11:892][  0]LogInit: FAudioDevice initialized.
-[2016.01.26-10.29.11:927][  0]LogAIModule: Creating AISystem for world NewWorld
-[2016.01.26-10.29.11:942][  0]LogDerivedDataCache: Saved boot cache 0.01s 39MB ../../../../Users/XperienciaRender/Documents/Unreal Projects/TAG_HEUER/DerivedDataCache/Boot.ddc.
-[2016.01.26-10.29.11:944][  0]LogInit: Texture streaming: Enabled
-[2016.01.26-10.29.12:025][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
-[2016.01.26-10.29.12:025][  0]LogAnalytics: ET APIKey = UnrealEngine.Release. APIServer = http://etsource.epicgames.com/ET2/. AppVersion = 4.7.6-0+++depot+UE4-Releases+4.7
-[2016.01.26-10.29.12:025][  0]LogAnalytics: SetUserId d6168901472bba0ffb3e81af04f59a83|993bd6500af24810ad7ff9f04b6bd5ef|bb511fb2-8347-4713-aceb-f87baa5cc237
-[2016.01.26-10.29.12:026][  0]LogAnalytics: AnalyticsET::StartSession [UnrealEngine.Release]
-[2016.01.26-10.29.12:040][  0]LogInit: Transaction tracking system initialized
-[2016.01.26-10.29.12:161][  0]OCULUS: [From Service] [Sensor2Impl] Lost 3 IMU samples: 4993 2 5
-[2016.01.26-10.29.12:161][  0]BlueprintLog: New page: Cargar el editor
-[2016.01.26-10.29.12:189][  0]LogAssetRegistry: FAssetRegistry took 0.0121 seconds to start up
-[2016.01.26-10.29.12:189][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
-[2016.01.26-10.29.12:576][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2016.01.26-10.29.12:839][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2016.01.26-10.29.13:041][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Regular.ttf'
-[2016.01.26-10.29.13:042][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Bold.ttf'
-[2016.01.26-10.29.13:047][  0]LogConsoleResponse:Display: 
-[2016.01.26-10.29.13:194][  0]LogCook:Display: Done creating registry. It took  0.00s.
-[2016.01.26-10.29.13:322][  0]SourceControl: Información El control de código fuente está desactivado
-[2016.01.26-10.29.13:323][  0]Cmd: MAP LOAD FILE="../../../../Users/XperienciaRender/Documents/Unreal Projects/TAG_HEUER/Content/Maps/TAG.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2016.01.26-10.29.13:324][  0]LightingResults: New page: Diseñar la iluminación
-[2016.01.26-10.29.13:334][  0]MapCheck: New page: Revisión del mapa
-[2016.01.26-10.29.13:334][  0]LightingResults: New page: Diseñar la iluminación
-[2016.01.26-10.29.13:342][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000091046A6200
-[2016.01.26-10.29.14:078][  0]LogTexture:Display: Generando texturas: HQ_Lightmap0_2 (AutoDXT)
-[2016.01.26-10.29.14:079][  0]LogTexture:Display: Generando texturas: HQ_Lightmap1_1 (AutoDXT)
-[2016.01.26-10.29.14:099][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2016.01.26-10.29.14:120][  0]LogAIModule: Creating AISystem for world TAG
-[2016.01.26-10.29.14:121][  0]Cmd: MAP CHECKDEP
-[2016.01.26-10.29.14:121][  0]MapCheck: New page: TAG - 26/1/2016 12:29:14
-[2016.01.26-10.29.14:166][  0]MapCheck: Información Map check complete: 0 Error(s), 0 Warning(s), took 44,019ms to complete.
-[2016.01.26-10.29.14:166][  0]LogFileHelpers: Loading map 'TAG' took 0.843
-[2016.01.26-10.29.14:305][  0]LogCollectionManager: Loaded 0 collections in 0.000815 seconds
-[2016.01.26-10.29.14:312][  0]LogContentBrowser: Native class hierarchy populated in 0.0075 seconds. Added 1696 classes and 262 folders.
-[2016.01.26-10.29.14:329][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
-[2016.01.26-10.29.14:341][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0012 seconds. Added 1 classes and 2 folders.
-[2016.01.26-10.29.14:459][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2016.01.26-10.29.14:462][  0]LogSlate:Warning: Failed to load font data from 'Veranda'
-[2016.01.26-10.29.14:468][  0]LogUObjectGlobals:Warning: Error al encontrar el objeto 'Class Ninguno.'
-[2016.01.26-10.29.14:493][  0]LogLoad: Full Startup: 8.27 seconds (BP compile: 0.07 seconds)
-[2016.01.26-10.29.14:999][  0]LogRenderer:Warning: Reallocating scene render targets to support 1208x576 (Frame:2).
-[2016.01.26-10.29.15:296][  2]LogAssetRegistry: Asset discovery search completed in 3.1191 seconds
-[2016.01.26-10.30.10:455][643]LogPlayLevel: PIE:  No blueprints needed recompiling
-[2016.01.26-10.30.10:455][643]PIE: New page: Sesión PIE (reproducción en el editor): TAG (26/1/2016 12:30:10)
-[2016.01.26-10.30.10:458][643]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002459s)
-[2016.01.26-10.30.10:458][643]LogPlayLevel: PIE: World Init took: (0.000352s)
-[2016.01.26-10.30.10:459][643]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TAG.TAG to /Game/Maps/UEDPIE_0_TAG.TAG (0.002922s)
-[2016.01.26-10.30.10:591][643]LogWorld: Game class is 'GameMode'
-[2016.01.26-10.30.10:596][643]LogAIModule: Creating AISystem for world TAG
-[2016.01.26-10.30.10:598][643]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TAG.TAG up for play (max tick rate 0) at 2016.01.26-11.30.10
-[2016.01.26-10.30.10:598][643]LogWorld: Bringing up level for play took: 0.001458
-[2016.01.26-10.30.10:610][643]PIE: Información Tiempo de inicio de la reproducción en el editor para  /Game/Maps/UEDPIE_0_TAG 0,395
-[2016.01.26-10.30.10:624][645]LogRenderer:Warning: Reallocating scene render targets to support 1920x1080 (Frame:308).
-[2016.01.26-10.30.10:875][658]OCULUS: [From Service] [Sensor2Impl] Lost 13 IMU samples: 14978 2 15
-[2016.01.26-10.30.11:144][678]OCULUS: [From Service] [Sensor2Impl] Lost 2 IMU samples: 1997 2 4
-[2016.01.26-10.30.11:611][713]OCULUS: [From Service] [Sensor2Impl] Lost 2 IMU samples: 1997 2 4
-[2016.01.26-10.30.11:891][734]OCULUS: [From Service] [Sensor2Impl] Lost 2 IMU samples: 2122 2 4
-[2016.01.26-10.30.12:819][803]LogHMD:Warning: Vision Tracking Acquired
-[2016.01.26-10.30.14:626][939]OCULUS: [From Service] Early Tracking Recovery
-[2016.01.26-10.30.14:641][940]OCULUS: [From Service] Early Tracking Recovery
-[2016.01.26-10.30.14:659][941]LogHMD:Warning: Lost Vision Tracking
-[2016.01.26-10.30.15:596][  8]LogHMD:Warning: HMD Oculus Rift DK2, Monitor , res = 1920 x 1080, windowPos = {0, 0}
-[2016.01.26-10.30.15:626][  8]OCULUS: [From Service] [Sensor2Impl] Lost 5 IMU samples: 1997 2 7
-[2016.01.26-10.30.15:738][  8]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009110140B80
-[2016.01.26-10.30.17:291][193]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (Reloj_01)
-[2016.01.26-10.30.27:978][289]LogHMD:Warning: HMD Oculus Rift DK2, Monitor , res = 1920 x 1080, windowPos = {0, 0}
-[2016.01.26-10.30.27:979][289]LogPlayLevel: PIE:  No blueprints needed recompiling
-[2016.01.26-10.30.27:979][289]PIE: New page: Sesión PIE (reproducción en el editor): TAG (26/1/2016 12:30:27)
-[2016.01.26-10.30.27:981][289]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002328s)
-[2016.01.26-10.30.27:982][289]LogPlayLevel: PIE: World Init took: (0.000312s)
-[2016.01.26-10.30.27:982][289]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TAG.TAG to /Game/Maps/UEDPIE_0_TAG.TAG (0.002739s)
-[2016.01.26-10.30.28:104][289]LogWorld: Game class is 'GameMode'
-[2016.01.26-10.30.28:108][289]LogAIModule: Creating AISystem for world TAG
-[2016.01.26-10.30.28:111][289]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TAG.TAG up for play (max tick rate 0) at 2016.01.26-11.30.28
-[2016.01.26-10.30.28:112][289]LogWorld: Bringing up level for play took: 0.003596
-[2016.01.26-10.30.28:140][289]PIE: Información Tiempo de inicio de la reproducción en el editor para  /Game/Maps/UEDPIE_0_TAG -0,074
-[2016.01.26-10.30.28:215][293]OCULUS: [From Service] [Sensor2Impl] Lost 16 IMU samples: 17974 2 18
-[2016.01.26-10.30.28:417][306]OCULUS: [From Service] [Sensor2Impl] Lost 13 IMU samples: 14979 2 15
-[2016.01.26-10.30.28:687][326]OCULUS: [From Service] [Sensor2Impl] Lost 2 IMU samples: 1997 2 4
-[2016.01.26-10.30.29:154][361]OCULUS: [From Service] [Sensor2Impl] Lost 2 IMU samples: 2122 2 4
-[2016.01.26-10.30.
+[2016.01.26-11.44.09:021][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.01.26-11.44.10:432][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.01.26-11.44.10:748][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.01.26-11.44.10:782][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.01.26-11.44.10:807][  0]LogDerivedDataCache: Loaded boot cache 0.03s 39MB ../../../../Users/XperienciaRender/Documents/Unreal Projects/TAG_HEUER/DerivedDataCache/Boot.ddc.
+[2016.01.26-11.44.10:807][  0]LogDerivedDataCache:Display: Loaded Boot cache: ../../../../Users/XperienciaRender/Documents/Unreal Projects/TAG_HEUER/DerivedDataCache/Boot.ddc
+[2016.01.26-11.44.10:807][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../Users/XperienciaRender/Documents/Unreal Projects/TAG_HEUER/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.01.26-11.44.10:807][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.01.26-11.44.10:807][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnginePak pak cache file ../../../Engine/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.01.26-11.44.10:807][  0]LogDerivedDataCache: Unable to find inner node EnginePak for hierarchical cache Hierarchy.
+[2016.01.26-11.44.10:819][  0]LogDerivedDataCache: Using Local data cache path ../../../Engine/DerivedDataCache: Writable
+[2016.01.26-11.44.10:819][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2016.01.26-11.44.10:819][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2016.01.26-11.44.10:994][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.01.26-11.44.10:994][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.01.26-11.44.11:242][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.01.26-11.44.11:280][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2016.01.26-11.44.11:723][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.01.26-11.44.11:854][  0]SourceControl: Información El control de código fuente está desactivado
+[2016.01.26-11.44.11:854][  0]SourceControl: Información El control de código fuente está desactivado
+[2016.01.26-11.44.11:855][  0]SourceControl: Información El control de código fuente está desactivado
+[2016.01.26-11.44.11:855][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2016.01.26-11.44.11:855][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2016.01.26-11.44.11:859][  0]SourceControl: Información El control de código fuente está desactivado
+[2016.01.26-11.44.11:952][  0]LogObj: 24234 objects as part of root set at end of initial load.
+[2016.01.26-11.44.11:952][  0]LogUObjectAllocator: 5137560 out of 0 bytes used by permanent object pool.
+[2016.01.26-11.44.12:004][  0]LogEngine: Initializing Engine...
+[2016.01.26-11.44.12:005][  0]LogHMD:Warning: HMD Oculus Rift DK2, Monitor , res = 1920 x 1080, windowPos = {0, 0}
+[2016.01.26-11.44.12:006][  0]LogHMD: Oculus plugin initialized. Version: 4.7.6-0+++depot+UE4-Releases+4.7, LibOVR: 0.4.4, built Nov 17 2015, 19:45:18
+[2016.01.26-11.44.12:102][  0]LogInit: XAudio2 using 'Audio digital (HDMI) (2- Dispositivo de High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.01.26-11.44.12:119][  0]LogInit: FAudioDevice initialized.
+[2016.01.26-11.44.12:138][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.01.26-11.44.12:151][  0]LogDerivedDataCache: Saved boot cache 0.01s 39MB ../../../../Users/XperienciaRender/Documents/Unreal Projects/TAG_HEUER/DerivedDataCache/Boot.ddc.
+[2016.01.26-11.44.12:153][  0]LogInit: Texture streaming: Enabled
+[2016.01.26-11.44.12:204][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.01.26-11.44.12:204][  0]LogAnalytics: ET APIKey = UnrealEngine.Release. APIServer = http://etsource.epicgames.com/ET2/. AppVersion = 4.7.6-0+++depot+UE4-Releases+4.7
+[2016.01.26-11.44.12:204][  0]LogAnalytics: SetUserId d6168901472bba0ffb3e81af04f59a83|993bd6500af24810ad7ff9f04b6bd5ef|bb511fb2-8347-4713-aceb-f87baa5cc237
+[2016.01.26-11.44.12:204][  0]LogAnalytics: AnalyticsET::StartSession [UnrealEngine.Release]
+[2016.01.26-11.44.12:216][  0]LogInit: Transaction tracking system initialized
+[2016.01.26-11.44.12:301][  0]BlueprintLog: New page: Cargar el editor
+[2016.01.26-11.44.12:324][  0]OCULUS: [From Service] [Sensor2Impl] Lost 14 IMU samples: 15977 2 16
+[2016.01.26-11.44.12:324][  0]LogAssetRegistry: FAssetRegistry took 0.0110 seconds to start up
+[2016.01.26-11.44.12:324][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2016.01.26-11.44.12:685][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.01.26-11.44.12:947][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.01.26-11.44.13:099][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Regular.ttf'
+[2016.01.26-11.44.13:100][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Bold.ttf'
+[2016.01.26-11.44.13:102][  0]LogConsoleResponse:Display: 
+[2016.01.26-11.44.13:191][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.01.26-11.44.13:272][  0]SourceControl: Información El control de código fuente está desactivado
+[2016.01.26-11.44.13:272][  0]Cmd: MAP LOAD FILE="../../../../Users/XperienciaRender/Documents/Unreal Projects/TAG_HEUER/Content/Maps/TAG.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.01.26-11.44.13:272][  0]LightingResults: New page: Diseñar la iluminación
+[2016.01.26-11.44.13:278][  0]MapCheck: New page: Revisión del mapa
+[2016.01.26-11.44.13:278][  0]LightingResults: New page: Diseñar la iluminación
+[2016.01.26-11.44.13:285][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F1DE986200
+[2016.01.26-11.44.13:927][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.01.26-11.44.13:957][  0]LogAIModule: Creating AISystem for world TAG
+[2016.01.26-11.44.13:957][  0]Cmd: MAP CHECKDEP
+[2016.01.26-11.44.13:957][  0]MapCheck: New page: TAG - 26/1/2016 13:44:13
+[2016.01.26-11.44.14:000][  0]MapCheck: Información Map check complete: 0 Error(s), 0 Warning(s), took 42,323ms to complete.
+[2016.01.26-11.44.14:000][  0]LogFileHelpers: Loading map 'TAG' took 0.728
+[2016.01.26-11.44.14:094][  0]LogCollectionManager: Loaded 0 collections in 0.000745 seconds
+[2016.01.26-11.44.14:100][  0]LogContentBrowser: Native class hierarchy populated in 0.0062 seconds. Added 1696 classes and 262 folders.
+[2016.01.26-11.44.14:117][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0012 seconds. Added 1 classes and 2 folders.
+[2016.01.26-11.44.14:183][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.01.26-11.44.14:184][  0]LogSlate:Warning: Failed to load font data from 'Veranda'
+[2016.01.26-11.44.14:188][  0]LogUObjectGlobals:Warning: Error al encontrar el objeto 'Class Ninguno.'
+[2016.01.26-11.44.14:213][  0]LogLoad: Full Startup: 5.87 seconds (BP compile: 0.06 seconds)
+[2016.01.26-11.44.14:227][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/watch'
+[2016.01.26-11.44.14:321][  0]LogRenderer:Warning: Reallocating scene render targets to support 32x32 (Frame:2).
+[2016.01.26-11.44.14:408][  0]LogRenderer:Warning: Reallocating scene render targets to support 1208x576 (Frame:3).
+[2016.01.26-11.44.14:642][  3]LogAssetRegistry: Asset discovery search completed in 2.3297 seconds
+[2016.01.26-11.52.22:772][416]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (Reloj_01)
+[2016.01.26-11.53.06:642][298]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.06:650][299]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.06:666][301]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.06:683][303]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.06:692][304]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.06:700][305]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.06:717][307]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.06:741][310]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.06:750][311]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.06:758][312]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.06:766][313]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.06:784][315]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.06:792][316]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.06:801][317]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.06:809][318]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.06:817][319]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.06:825][320]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.06:833][321]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.06:842][322]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.06:850][323]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.06:858][324]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.06:875][326]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.06:917][331]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.06:933][333]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.06:942][334]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.06:950][335]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.06:958][336]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.06:983][339]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.07:000][341]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.07:051][347]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.07:067][349]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.07:075][350]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.07:084][351]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.07:092][352]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.07:100][353]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.07:109][354]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.07:117][355]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.07:125][356]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.07:134][357]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.07:142][358]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.07:151][359]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.07:167][361]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.07:175][362]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.07:183][363]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.07:192][364]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.07:200][365]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.07:208][366]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.07:217][367]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.07:225][368]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.07:233][369]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.07:242][370]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.07:276][374]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.07:284][375]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.07:292][376]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.07:300][377]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.07:308][378]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.07:317][379]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.07:325][380]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.07:333][381]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.07:342][382]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.07:350][383]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.07:358][384]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.07:366][385]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.07:375][386]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.07:385][387]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.07:392][388]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.07:401][389]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.07:409][390]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.07:418][391]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.07:426][392]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.07:434][393]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.07:443][394]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.07:451][395]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.07:460][396]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.07:467][397]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.07:476][398]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.07:485][399]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.07:493][400]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.07:501][401]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.07:509][402]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.07:518][403]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.07:526][404]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.07:534][405]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.07:542][406]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.07:551][407]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.07:558][408]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.07:567][409]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.07:583][411]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.07:592][412]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.07:600][413]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.07:608][414]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.07:617][415]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.07:625][416]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.07:633][417]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.07:650][419]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.07:675][422]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.07:684][423]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.07:692][424]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.07:700][425]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.07:708][426]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.07:717][427]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.07:725][428]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.07:733][429]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.07:741][430]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.07:751][431]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.07:758][432]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.07:767][433]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.07:777][434]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.07:785][435]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.07:793][436]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.07:802][437]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.07:810][438]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.07:819][439]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.07:827][440]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.07:835][441]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.07:843][442]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.07:852][443]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.07:860][444]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.07:868][445]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.07:877][446]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.07:885][447]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.07:894][448]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.07:901][449]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.07:909][450]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.07:917][451]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.07:926][452]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.07:934][453]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.07:942][454]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.07:994][460]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.08:002][461]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.08:010][462]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.08:017][463]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.08:025][464]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.08:033][465]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.08:042][466]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.08:050][467]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.08:059][468]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.08:067][469]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.08:076][470]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.08:084][471]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.08:092][472]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.08:100][473]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.08:109][474]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.08:117][475]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.08:126][476]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.08:136][477]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.08:144][478]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.08:152][479]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.08:160][480]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.08:168][481]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.08:176][482]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.08:217][487]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.08:225][488]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.08:234][489]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.08:242][490]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.08:250][491]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.08:259][492]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.08:267][493]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.08:283][495]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.08:292][496]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.08:301][497]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.08:309][498]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.08:317][499]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.08:325][500]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.08:334][501]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.08:342][502]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.08:350][503]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.08:359][504]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.08:367][505]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.08:376][506]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.08:384][507]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.08:394][508]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.08:401][509]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.08:409][510]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.08:417][511]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.08:425][512]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.08:434][513]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.08:442][514]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.08:450][515]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.08:483][519]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.08:492][520]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.08:500][521]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.08:508][522]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.08:517][523]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.08:525][524]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.08:542][526]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.08:550][527]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.08:559][528]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.08:566][529]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.08:575][530]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.08:583][531]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.08:592][532]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.08:601][533]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.08:610][534]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.08:618][535]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.08:628][536]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.08:635][537]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.08:643][538]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.08:652][539]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.08:660][540]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.08:668][541]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.08:676][542]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.08:684][543]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.08:692][544]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.08:701][545]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.08:725][548]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.08:818][559]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.10:255][722]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2016.01.26-11.53.10:255][722]PIE: New page: Sesión PIE (reproducción en el editor): TAG (26/1/2016 13:53:10)
+[2016.01.26-11.53.10:258][722]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002718s)
+[2016.01.26-11.53.10:258][722]LogPlayLevel: PIE: World Init took: (0.000397s)
+[2016.01.26-11.53.10:258][722]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TAG.TAG to /Game/Maps/UEDPIE_0_TAG.TAG (0.003226s)
+[2016.01.26-11.53.10:394][722]LogWorld: Game class is 'GameMode'
+[2016.01.26-11.53.10:396][722]LogAIModule: Creating AISystem for world TAG
+[2016.01.26-11.53.10:397][722]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TAG.TAG up for play (max tick rate 0) at 2016.01.26-12.53.10
+[2016.01.26-11.53.10:398][722]LogWorld: Bringing up level for play took: 0.001465
+[2016.01.26-11.53.10:412][722]PIE: Información Tiempo de inicio de la reproducción en el editor para  /Game/Maps/UEDPIE_0_TAG 0,197
+[2016.01.26-11.53.10:424][724]LogRenderer:Warning: Reallocating scene render targets to support 1920x1080 (Frame:8677).
+[2016.01.26-11.53.10:682][738]OCULUS: [From Service] [Sensor2Impl] Lost 14 IMU samples: 1997 2 16
+[2016.01.26-11.53.10:950][758]OCULUS: [From Service] [Sensor2Impl] Lost 2 IMU samples: 3994 2 4
+[2016.01.26-11.53.11:697][814]OCULUS: [From Service] [Sensor2Impl] Lost 2 IMU samples: 1997 2 4
+[2016.01.26-11.53.13:012][912]LogHMD:Warning: Vision Tracking Acquired
+[2016.01.26-11.53.14:354][ 13]OCULUS: [From Service] Early Tracking Recovery
+[2016.01.26-11.53.14:401][ 17]OCULUS: [From Service] Early Tracking Recovery
+[2016.01.26-11.53.14:420][ 18]OCULUS: [From Service] Early Tracking Recovery
+[2016.01.26-11.53.14:438][ 19]LogHMD:Warning: Lost Vision Tracking
+[2016.01.26-11.53.14:851][ 50]LogHMD:Warning: Vision Tracking Acquired
+[2016.01.26-11.53.17:917][280]OCULUS: [From Service] Early Tracking Recovery
+[2016.01.26-11.53.17:935][282]OCULUS: [From Service] Early Tracking Recovery
+[2016.01.26-11.53.17:958][283]LogHMD:Warning: Lost Vision Tracking
+[2016.01.26-11.53.18:359][313]LogHMD:Warning: Vision Tracking Acquired
+[2016.01.26-11.53.19:584][405]OCULUS: [From Service] Early Tracking Recovery
+[2016.01.26-11.53.19:603][407]OCULUS: [From Service] Early Tracking Recovery
+[2016.01.26-11.53.19:625][408]LogHMD:Warning: Lost Vision Tracking
+[2016.01.26-11.53.19:937][432]OCULUS: [From Service] [TrackedHMD] Ransac failed (eliminated 6 out of 6 input blobs)
+[2016.01.26-11.53.19:951][433]OCULUS: [From Service] [TrackedHMD] Ransac failed (eliminated 6 out of 6 input blobs)
+[2016.01.26-11.53.19:969][434]OCULUS: [From Service] [TrackedHMD] Ransac failed (eliminated 5 out of 5 input blobs)
+[2016.01.26-11.53.20:002][437]OCULUS: [From Service] [TrackedHMD] Ransac failed (eliminated 5 out of 5 input blobs)
+[2016.01.26-11.53.20:678][487]LogHMD:Warning: Vision Tracking Acquired
+[2016.01.26-11.53.21:129][517]LogHMD:Warning: HMD Oculus Rift DK2, Monitor , res = 1920 x 1080, windowPos = {0, 0}
+[2016.01.26-11.53.21:150][517]OCULUS: [From Service] [Sensor2Impl] Lost 3 IMU samples: 1997 2 5
+[2016.01.26-11.53.21:318][517]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F1E8ED1440
+[2016.01.26-11.53.24:639][902]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.24:647][903]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.24:656][904]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.24:665][905]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.24:673][906]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.24:681][907]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.24:690][908]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.24:698][909]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.24:706][910]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.24:714][911]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.24:723][912]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.24:731][913]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.24:739][914]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.24:748][915]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.24:756][916]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.24:764][917]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.24:773][918]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.24:781][919]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.24:789][920]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.24:798][921]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.24:806][922]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.24:814][923]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.24:822][924]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.24:831][925]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.24:839][926]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.24:847][927]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.24:855][928]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.24:864][929]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.24:872][930]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.24:880][931]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.24:888][932]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.24:897][933]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.24:906][934]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.24:914][935]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.24:922][936]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.24:932][937]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.24:940][938]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.24:948][939]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.24:956][940]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.24:965][941]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.24:973][942]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.24:981][943]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.24:990][944]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.24:998][945]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.25:006][946]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.25:014][947]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.25:023][948]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.25:031][949]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.25:039][950]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.25:048][951]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.25:056][952]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.25:064][953]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.25:073][954]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.25:081][955]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.25:089][956]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.25:097][957]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.25:105][958]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.25:113][959]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.25:121][960]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.25:130][961]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.25:139][962]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.25:147][963]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.25:156][964]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.25:164][965]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.25:172][966]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.25:181][967]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.25:189][968]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.25:198][969]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.25:206][970]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.25:215][971]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.25:223][972]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.25:231][973]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.25:240][974]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.25:248][975]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.25:256][976]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.25:264][977]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.25:272][978]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.25:280][979]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.25:288][980]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.25:297][981]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.25:305][982]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.25:313][983]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.25:321][984]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.25:330][985]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.25:338][986]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.25:348][987]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.25:355][988]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.25:365][989]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.25:372][990]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.25:381][991]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.25:389][992]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.25:397][993]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.25:405][994]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.25:413][995]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.25:421][996]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.25:430][997]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.25:772][ 38]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.26:960][167]LogHMD:Warning: HMD Oculus Rift DK2, Monitor , res = 1920 x 1080, windowPos = {0, 0}
+[2016.01.26-11.53.26:961][167]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2016.01.26-11.53.26:961][167]PIE: New page: Sesión PIE (reproducción en el editor): TAG (26/1/2016 13:53:26)
+[2016.01.26-11.53.26:964][167]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002803s)
+[2016.01.26-11.53.26:964][167]LogPlayLevel: PIE: World Init took: (0.000308s)
+[2016.01.26-11.53.26:964][167]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TAG.TAG to /Game/Maps/UEDPIE_0_TAG.TAG (0.003209s)
+[2016.01.26-11.53.27:086][167]LogWorld: Game class is 'GameMode'
+[2016.01.26-11.53.27:087][167]LogAIModule: Creating AISystem for world TAG
+[2016.01.26-11.53.27:089][167]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TAG.TAG up for play (max tick rate 0) at 2016.01.26-12.53.27
+[2016.01.26-11.53.27:089][167]LogWorld: Bringing up level for play took: 0.001464
+[2016.01.26-11.53.27:102][167]PIE: Información Tiempo de inicio de la reproducción en el editor para  /Game/Maps/UEDPIE_0_TAG 0,887
+[2016.01.26-11.53.27:102][167]LogHMD:Warning: Lost Vision Tracking
+[2016.01.26-11.53.27:235][173]OCULUS: [From Service] [Sensor2Impl] Lost 19 IMU samples: 20970 2 21
+[2016.01.26-11.53.27:381][184]OCULUS: [From Service] [Sensor2Impl] Lost 13 IMU samples: 1997 2 15
+[2016.01.26-11.53.27:420][187]OCULUS: [From Service] [ModulationModel] Modulation sequence decoding failed
+[2016.01.26-11.53.27:592][200]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-11.53.27:604][200]LogHMD:Warning: Vision Tracking Acquired
+[2016.01.26-11.53.27:619][202]OCULUS: [From Service] Early Tracking Recovery
+[2016.01.26-11.53.27:634][203]OCULUS: [From Service] Early Tracking Recovery
+[2016.01.26-11.53.27:650][204]OCULUS: [From Service] [Sensor2Impl] Lost 2 IMU samples: 1997 2 4
+[2016.01.26-11.53.27:657][204]LogHMD:Warning: Lost Vision Tracking
+[2016.01.26-11.53.27:775][213]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-11.53.27:777][213]LogHMD:Warning: Vision Tracking Acquired
+[2016.01.26-11.53.27:789][214]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-11.53.27:808][216]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-11.53.27:822][217]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-11.53.27:840][218]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-11.53.27:855][219]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-11.53.27:872][221]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-11.53.27:891][222]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-11.53.27:906][223]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-11.53.27:923][224]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-11.53.27:938][226]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-11.53.27:957][227]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-11.53.27:972][228]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-11.53.27:990][229]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-11.53.28:005][231]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-11.53.28:023][232]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-11.53.28:038][233]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-11.53.28:056][234]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-11.53.28:073][236]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-11.53.28:089][237]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-11.53.28:108][238]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-11.53.28:115][239]OCULUS: [From Service] [Sensor2Impl] Lost 2 IMU samples: 3994 2 4
+[2016.01.26-11.53.28:122][239]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-11.53.28:139][241]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-11.53.28:155][242]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-11.53.28:172][243]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-11.53.28:188][244]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-11.53.28:206][246]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-11.53.28:224][247]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-11.53.28:239][248]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-11.53.28:257][249]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-11.53.28:272][251]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-11.53.44:600][475]OCULUS: [From Service] Early Tracking Recovery
+[2016.01.26-11.53.44:631][477]LogHMD:Warning: Lost Vision Tracking
+[2016.01.26-11.53.44:777][488]LogHMD:Warning: Vision Tracking Acquired
+[2016.01.26-11.53.45:926][570]LogHMD:Warning: HMD Oculus Rift DK2, Monitor , res = 1920 x 1080, windowPos = {0, 0}
+[2016.01.26-11.53.45:944][570]OCULUS: [From Service] [Sensor2Impl] Lost 4 IMU samples: 5991 2 6
+[2016.01.26-11.53.46:089][571]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F1DAFE47C0
+[2016.01.26-11.53.50:088][ 43]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.50:096][ 44]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.50:105][ 45]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.50:113][ 46]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.50:121][ 47]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.50:130][ 48]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.50:138][ 49]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.50:146][ 50]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.50:154][ 51]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.50:163][ 52]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.50:171][ 53]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.50:179][ 54]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.50:187][ 55]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.50:196][ 56]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.50:204][ 57]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.50:213][ 58]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.50:221][ 59]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.50:229][ 60]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.50:238][ 61]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.50:246][ 62]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.50:254][ 63]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.50:263][ 64]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.50:271][ 65]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.50:279][ 66]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.50:287][ 67]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.50:296][ 68]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.50:304][ 69]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.50:312][ 70]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.50:320][ 71]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.50:328][ 72]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.50:337][ 73]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.50:345][ 74]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.50:380][ 78]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.50:388][ 79]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.50:396][ 80]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.50:405][ 81]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.50:413][ 82]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.50:421][ 83]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.50:429][ 84]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.50:438][ 85]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.50:446][ 86]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.50:454][ 87]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.50:463][ 88]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.50:479][ 90]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.50:496][ 92]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.50:505][ 93]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.50:513][ 94]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.50:521][ 95]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.50:529][ 96]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.50:537][ 97]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.50:547][ 98]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.50:554][ 99]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.50:562][100]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.50:570][101]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.50:579][102]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.50:604][105]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.50:612][106]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.50:621][107]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.50:629][108]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.50:638][109]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.50:645][110]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.50:654][111]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.50:662][112]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.50:671][113]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.50:679][114]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.50:687][115]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.50:695][116]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.50:705][117]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.50:712][118]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.50:720][119]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.50:729][120]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.50:738][121]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.50:746][122]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.50:755][123]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.50:763][124]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.50:771][125]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.50:779][126]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.50:788][127]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.50:796][128]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.50:805][129]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.50:813][130]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.50:821][131]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.50:829][132]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.50:838][133]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.50:846][134]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.50:854][135]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.50:862][136]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.50:871][137]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.50:887][139]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.50:921][143]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.50:937][145]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.50:946][146]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.50:954][147]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.50:962][148]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.50:970][149]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.50:979][150]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.50:987][151]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.50:996][152]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.51:004][153]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.51:012][154]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.51:020][155]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.51:029][156]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.51:037][157]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.51:045][158]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.51:053][159]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.51:062][160]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.51:070][161]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.51:079][162]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.51:087][163]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.51:103][165]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.51:129][168]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.51:138][169]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.51:145][170]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.51:154][171]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.51:162][172]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.51:171][173]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.51:179][174]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.51:187][175]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.51:196][176]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.51:204][177]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.51:212][178]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.51:220][179]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.51:229][180]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.51:237][181]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.51:245][182]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.51:254][183]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.51:262][184]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.51:271][185]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.51:279][186]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.51:287][187]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.51:295][188]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.51:304][189]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.51:312][190]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.51:328][192]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.51:346][194]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.51:355][195]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.51:363][196]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.51:371][197]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.51:379][198]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.51:388][199]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.51:396][200]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.51:404][201]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.51:412][202]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.51:421][203]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.51:429][204]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.51:446][206]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.51:454][207]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.51:463][208]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.51:471][209]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.51:480][210]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.51:488][211]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.51:496][212]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.51:504][213]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.51:512][214]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.51:521][215]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.51:529][216]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.51:537][217]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.51:545][218]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.51:603][225]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.51:637][229]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.51:653][231]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.51:670][233]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.51:796][248]Cmd: UpdateLandscapeSetup
+[2016.01.26-11.53.53:217][409]LogHMD:Warning: HMD Oculus Rift DK2, Monitor , res = 1920 x 1080, windowPos = {0, 0}
+[2016.01.26-11.53.53:218][409]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2016.01.26-11.53.53:218][409]PIE: New page: Sesión PIE (reproducción en el editor): TAG (26/1/2016 13:53:53)
+[2016.01.26-11.53.53:221][409]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002521s)
+[2016.01.26-11.53.53:221][409]LogPlayLevel: PIE: World Init took: (0.000324s)
+[2016.01.26-11.53.53:221][409]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TAG.TAG to /Game/Maps/UEDPIE_0_TAG.TAG (0.002946s)
+[2016.01.26-11.53.53:344][409]LogWorld: Game class is 'GameMode'
+[2016.01.26-11.53.53:345][409]LogAIModule: Creating AISystem for world TAG
+[2016.01.26-11.53.53:347][409]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TAG.TAG up for play (max tick rate 0) at 2016.01.26-12.53.53
+[2016.01.26-11.53.53:347][409]LogWorld: Bringing up level for play took: 0.001444
+[2016.01.26-11.53.53:361][409]PIE: Información Tiempo de inicio de la reproducción en el editor para  /Game/Maps/UEDPIE_0_TAG -0,854
+[2016.01.26-11.53.53:361][409]LogHMD:Warning: Lost Vision Tracking
+[2016.01.26-11.53.53:539][419]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-11.53.53:542][419]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-11.53.53:550][420]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-11.53.53:556][420]OCULUS: [From Service] [Sensor2Impl] Lost 2 IMU samples: 21968 20 22
+[2016.01.26-11.53.53:577][422]OCULUS: [From Service] [Sensor2Impl] Lost 2 IMU samples: 19972 20 22
+[2016.01.26-11.53.53:577][422]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-11.53.53:605][424]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-11.53.53:632][426]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-11.53.53:649][427]OCULUS: [From Service] [Sensor2Impl] Lost 14 IMU samples: 19972 20 34
+[2016.01.26-11.53.53:660][428]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-11.53.53:687][430]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-11.53.53:716][432]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-11.53.53:743][434]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-11.53.53:771][436]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-11.53.53:799][438]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-11.53.53:827][441]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-11.53.53:857][443]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-11.53.53:884][445]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-11.53.53:912][447]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-11.53.53:936][449]OCULUS: [From Service] [Sensor2Impl] Lost 3 IMU samples: 20970 20 23
+[2016.01.26-11.53.53:940][449]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-11.53.53:969][451]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-11.53.53:997][453]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-11.53.54:025][455]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-11.53.54:052][457]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-11.53.54:081][460]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-11.53.54:109][462]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-11.53.54:137][464]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-11.53.54:164][466]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-11.53.54:192][468]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-11.53.54:219][470]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-11.53.54:248][472]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-11.53.54:263][473]OCULUS: [From Service] [Sensor2Impl] Lost 2 IMU samples: 19972 20 22
+[2016.01.26-11.53.54:275][474]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-11.53.54:304][476]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-11.53.54:330][478]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-11.53.54:357][480]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-11.53.54:385][482]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-11.53.54:387][483]OCULUS: [From Service] [Sensor2Impl] Lost 2 IMU samples: 21969 20 22
+[2016.01.26-11.53.54:408][484]OCULUS: [From Service] [Sensor2Impl] Lost 2 IMU samples: 20970 20 22
+[2016.01.26-11.53.54:412][484]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-11.53.54:440][487]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-11.53.54:469][489]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-11.53.54:498][491]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-11.53.54:509][492]OCULUS: [From Service] [Sensor2Impl] Lost 18 IMU samples: 19971 2 20
+[2016.01.26-11.53.54:524][493]OCULUS: [From Service] [Sensor2Impl] Lost 2 IMU samples: 1997 2 4
+[2016.01.26-11.53.54:537][494]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-11.53.54:555][495]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-11.53.54:570][496]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-11.53.54:587][498]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-11.53.54:606][499]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-11.53.54:622][500]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-11.53.54:630][501]OCULUS: [From Service] [Sensor2Impl] Lost 2 IMU samples: 3995 2 4
+[2016.01.26-11.53.54:638][501]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-11.53.54:654][503]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-11.53.54:672][504]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-11.53.54:686][505]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-11.53.54:751][510]OCULUS: [From Service] [TrackedHMD] Ransac failed (eliminated 5 out of 5 input blobs)
+[2016.01.26-11.53.54:893][520]LogHMD:Warning: Vision Tracking Acquired
+[2016.01.26-11.54.11:849][792]OCULUS: [From Service] 
+Camera Aligned with Gravity: change 1.7 deg, 7 mm, conf 0.75
+[2016.01.26-11.54.11:849][792]OCULUS: [From Service]   Camera Position (57.6, -15.3, -6.9)
+[2016.01.26-11.54.11:849][792]OCULUS: [From Service]   Up in Camera Frame (-0.015, 0.997, -0.074)
+
+[2016.01.26-11.54.12:448][837]OCULUS: [From Service] Early Tracking Recovery
+[2016.01.26-11.54.12:467][839]OCULUS: [From Service] Early Tracking Recovery
+[2016.01.26-11.54.12:492][840]LogHMD:Warning: Lost Vision Tracking
+[2016.01.26-11.54.12:625][850]LogHMD:Warning: Vision Tracking Acquired
+[2016.01.26-11.54.12:649][852]OCULUS: [From Service] Early Tracking Recovery
+[2016.01.26-11.54.12:665][853]OCULUS: [From Service] Early Tracking Recovery
+[2016.01.26-11.54.12:693][855]LogHMD:Warning: Lost Vision Tracking
+[2016.01.26-11.54.12:826][865]LogHMD:Warning: Vision Tracking Acquired
+[2016.01.26-11.54.12:865][868]OCULUS: [From Service] Early Tracking Recovery
+[2016.01.26-11.54.12:892][870]LogHMD:Warning: Lost Vision Tracking
+[2016.01.26-11.54.13:039][881]LogHMD:Warning: Vision Tracking Acquired
+[2016.01.26-11.54.13:080][885]OCULUS: [From Service] Early Tracking Recovery
+[2016.01.26-11.54.13:099][886]OCULUS: [From Service] Early Tracking Recovery
+[2016.01.26-11.54.13:118][887]LogHMD:Warning: Lost Vision Tracking
+[2016.01.26-11.54.13:252][897]LogHMD:Warning: Vision Tracking Acquired
+[2016.01.26-11.54.13:283][900]OCULUS: [From Service] Early Tracking Recovery
+[2016.01.26-11.54.13:300][901]OCULUS: [From Service] Early Tracking Recovery
+[2016.01.26-11.54.13:318][902]LogHMD:Warning: Lost Vision Tracking
+[2016.01.26-11.54.13:453][912]LogHMD:Warning: Vision Tracking Acquired
+[2016.01.26-11.54.15:566][ 71]OCULUS: [From Service] 
+Camera Aligned with Gravity: change 1.6 deg, 8 mm, conf 0.75
+[2016.01.26-11.54.15:566][ 71]OCULUS: [From Service]   Camera Position (55.7, -7.5, -8.4)
+[2016.01.26-11.54.15:566][ 71]OCULUS: [From Service]   Up in Camera Frame (0.004, 0.998, -0.055)
+
+[2016.01.26-11.54.20:732][458]OCULUS: [From Service] Early Tracking Recovery
+[2016.01.26-11.54.20:749][460]OCULUS: [From Service] Early Tracking Recovery
+[2016.01.26-11.54.20:772][461]LogHMD:Warning: Lost Vision Tracking
+[2016.01.26-11.54.22:808][611]LogHMD:Warning: HMD Oculus Rift DK2, Monitor , res = 1920 x 1080, windowPos = {0, 0}
+[2016.01.26-11.54.22:836][611]OCULUS: [From Service] [Sensor2Impl] Lost 3 IMU samples: 4993 2 5
+[2016.01.26-11.54.22:978][612]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F1DAFE5620
+[2016.01.26-11.55.13:412][578]LogSavePackage: Save=60.537216ms
+[2016.01.26-11.55.13:412][578]LogSavePackage: Moving '../../../../Users/XperienciaRender/Documents/Unreal Projects/TAG_HEUER/Saved/TAG_Auto1C43AFAF74918B3EE5ADFAEBA5B08B9CC.tmp' to '../../../../Users/XperienciaRender/Documents/Unreal Projects/TAG_HEUER/Saved/Autosaves/Game/Maps/TAG_Auto1.umap'
+[2016.01.26-11.55.13:418][578]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/TAG' took 0.114
+[2016.01.26-11.55.13:418][578]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.114
+[2016.01.26-11.56.15:376][703]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2016.01.26-11.56.17:113][911]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Maps'
+[2016.01.26-11.56.18:638][ 94]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/watch'
+[2016.01.26-11.57.49:526][619]OCULUS: 
+[2016.01.26-11.57.53:192][630]OCULUS: [From Service] [Sensor2Impl] Lost 2 IMU samples: 2996 2 4
+[2016.01.26-12.05.38:307][443]OCULUS: [From Service] [Sensor2Impl] Lost 12 IMU samples: 13981 2 14
+[2016.01.26-12.05.38:640][444]OCULUS: [From Service] [Sensor2Impl] Lost 13 IMU samples: 1997 2 15
+[2016.01.26-12.05.38:973][445]OCULUS: [From Service] [Sensor2Impl] Lost 2 IMU samples: 1997 2 4
+[2016.01.26-12.05.39:640][447]OCULUS: [From Service] [Sensor2Impl] Lost 2 IMU samples: 3995 2 4
+[2016.01.26-12.05.39:640][447]OCULUS: [From Service] [Sensor2Impl] Lost 2 IMU samples: 1997 2 4
+[2016.01.26-12.05.52:641][486]OCULUS: [From Service] [Sensor2Impl] Lost 3 IMU samples: 1997 2 5
+[2016.01.26-12.05.52:641][486]OCULUS: [From Service] Early Tracking Recovery
+[2016.01.26-12.05.52:641][486]OCULUS: [From Service] Early Tracking Recovery
+[2016.01.26-12.08.46:977][  9]OCULUS: [From Service] [Sensor2Impl] Sample Timestamp wrap: 0000000300001fe5, was 00000002ffffd1e1
+[2016.01.26-12.09.17:644][101]OCULUS: [From Service] [Sensor2Impl] Lost 2 IMU samples: 2996 2 4
+[2016.01.26-12.09.17:644][101]OCULUS: [From Service] [Sensor2Impl] Lost 13 IMU samples: 14979 2 15
+[2016.01.26-12.09.17:978][102]OCULUS: [From Service] [Sensor2Impl] Lost 2 IMU samples: 1997 2 4
+[2016.01.26-12.09.18:644][104]OCULUS: [From Service] [Sensor2Impl] Lost 2 IMU samples: 1997 2 4
+[2016.01.26-12.09.29:977][138]OCULUS: [From Service] 
+Camera Aligned with Gravity: change 1.5 deg, 6 mm, conf 0.754
+[2016.01.26-12.09.29:977][138]OCULUS: [From Service]   Camera Position (53.1, -13.4, -7.6)
+[2016.01.26-12.09.29:977][138]OCULUS: [From Service]   Up in Camera Frame (0.029, 0.997, -0.065)
+
+[2016.01.26-12.09.41:311][172]OCULUS: [From Service] 
+Camera Aligned with Gravity: change 1.5 deg, 3 mm, conf 0.766
+[2016.01.26-12.09.41:311][172]OCULUS: [From Service]   Camera Position (56.2, -13.2, -8.1)
+[2016.01.26-12.09.41:311][172]OCULUS: [From Service]   Up in Camera Frame (0.003, 0.998, -0.061)
+
+[2016.01.26-12.09.48:311][193]OCULUS: [From Service] Early Tracking Recovery
+[2016.01.26-12.09.48:311][193]OCULUS: [From Service] Early Tracking Recovery
+[2016.01.26-12.09.48:644][194]OCULUS: [From Service] [Sensor2Impl] Lost 3 IMU samples: 1997 2 5
+[2016.01.26-12.09.56:644][218]OCULUS: [From Service] [Sensor2Impl] Lost 4 IMU samples: 5992 2 6
+[2016.01.26-12.09.56:978][219]OCULUS: [From Service] [Sensor2Impl] Lost 14 IMU samples: 15978 2 16
+[2016.01.26-12.09.57:311][220]OCULUS: [From Service] [Sensor2Impl] Lost 2 IMU samples: 1997 2 4
+[2016.01.26-12.09.57:977][222]OCULUS: [From Service] [Sensor2Impl] Lost 2 IMU samples: 3994 2 4
+[2016.01.26-12.10.42:644][356]OCULUS: [From Service] Early Tracking Recovery
+[2016.01.26-12.10.42:978][357]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-12.10.42:978][357]OCULUS: [From Service] [Sensor2Impl] Lost 4 IMU samples: 19972 20 24
+[2016.01.26-12.11.27:644][491]OCULUS: [From Service] [ExternalCamera] Skipped 1 frames
+[2016.01.26-12.11.27:644][491]OCULUS: [From Service] [Sensor2Impl] Lost 11 IMU samples: 12982 2 13
+[2016.01.26-12.11.27:978][492]OCULUS: [From Service] [Sensor2Impl] Lost 14 IMU samples: 15978 2 16
+[2016.01.26-12.11.28:311][493]OCULUS: [From Service] [Sensor2Impl] Lost 2 IMU samples: 1998 2 4
+[2016.01.26-12.11.28:644][494]OCULUS: [From Service] [Sensor2Impl] Lost 2 IMU samples: 3994 2 4
+[2016.01.26-12.11.28:977][495]OCULUS: [From Service] [Sensor2Impl] Lost 2 IMU samples: 1997 2 4
+[2016.01.26-12.11.57:979][582]OCULUS: [From Service] 
+Camera Aligned with Gravity: change 2.3 deg, 21 mm, conf 0.904
+[2016.01.26-12.11.57:979][582]OCULUS: [From Service]   Camera Position (50.8, -32.0, -6.4)
+[2016.01.26-12.11.57:979][582]OCULUS: [From Service]   Up in Camera Frame (0.048, 0.995, -0.086)
+
+[2016.01.26-12.12.04:312][601]OCULUS: [From Service] 
+Camera Aligned with Gravity: change 2.7 deg, 14 mm, conf 0.75
+[2016.01.26-12.12.04:312][601]OCULUS: [From Service]   Camera Position (55.1, -19.2, -8.9)
+[2016.01.26-12.12.04:312][601]OCULUS: [From Service]   Up in Camera Frame (0.011, 0.998, -0.057)
+
+[2016.01.26-12.12.05:311][604]OCULUS: [From Service] Early Tracking Recovery
+[2016.01.26-12.12.05:311][604]OCULUS: [From Service] Early Tracking Recovery
+[2016.01.26-12.12.05:644][605]OCULUS: [From Service] [Sensor2Impl] Lost 3 IMU samples: 1997 2 5
+[2016.01.26-12.12.54:312][751]OCULUS: [From Service] [Sensor2Impl] Lost 17 IMU samples: 18974 2 19
+[2016.01.26-12.12.54:978][753]OCULUS: [From Service] [Sensor2Impl] Lost 14 IMU samples: 2123 2 16
+[2016.01.26-12.12.55:311][754]OCULUS: [From Service] [Sensor2Impl] Lost 2 IMU samples: 3994 2 4
+[2016.01.26-12.12.55:644][755]OCULUS: [From Service] [Sensor2Impl] Lost 2 IMU samples: 3995 2 4
+[2016.01.26-12.12.56:311][757]OCULUS: [From Service] [ModulationModel] Modulation sequence decoding failed
+[2016.01.26-12.13.00:644][770]OCULUS: [From Service] [Sensor2Impl] Lost 3 IMU samples: 4994 2 5
+[2016.01.26-12.13.23:644][839]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-12.13.23:644][839]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-12.13.23:644][839]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-12.13.23:644][839]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-12.13.23:644][839]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-12.13.23:978][840]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-12.13.23:978][840]OCULUS: [From Service] [Sensor2Impl] Lost 14 IMU samples: 15978 2 16
+[2016.01.26-12.13.23:978][840]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-12.13.23:978][840]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-12.13.23:978][840]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-12.13.23:978][840]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-12.13.23:978][840]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-12.13.23:978][840]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-12.13.23:978][840]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-12.13.23:978][840]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-12.13.23:978][840]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-12.13.23:978][840]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-12.13.23:978][840]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-12.13.23:978][840]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-12.13.23:978][840]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-12.13.23:978][840]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-12.13.23:978][840]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-12.13.23:978][840]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-12.13.23:978][840]OCULUS: [From Service] [Sensor2Impl] Lost 2 IMU samples: 1997 2 4
+[2016.01.26-12.13.23:978][840]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-12.13.23:978][840]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-12.13.23:978][840]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-12.13.24:311][841]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-12.13.24:311][841]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-12.13.24:311][841]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-12.13.24:311][841]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-12.13.24:311][841]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-12.13.24:311][841]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-12.13.24:311][841]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-12.13.24:311][841]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-12.13.24:311][841]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-12.13.24:311][841]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-12.13.24:311][841]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-12.13.24:311][841]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-12.13.24:311][841]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-12.13.24:311][841]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-12.13.24:311][841]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-12.13.24:311][841]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-12.13.24:311][841]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-12.13.24:311][841]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-12.13.24:311][841]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-12.13.24:311][841]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-12.13.24:644][842]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-12.13.24:644][842]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-12.13.24:644][842]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-12.13.24:644][842]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-12.13.24:644][842]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-12.13.24:644][842]OCULUS: [From Service] [Sensor2Impl] Lost 2 IMU samples: 1997 2 4
+[2016.01.26-12.13.24:644][842]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-12.13.24:644][842]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-12.13.24:644][842]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-12.13.24:644][842]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-12.13.24:644][842]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-12.13.24:644][842]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-12.13.24:644][842]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-12.13.24:644][842]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-12.13.24:644][842]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-12.13.24:978][843]OCULUS: [From Service] [Sensor2Impl] Lost 2 IMU samples: 1997 2 4
+[2016.01.26-12.13.27:644][851]OCULUS: [From Service] Early Tracking Recovery
+[2016.01.26-12.13.27:644][851]OCULUS: [From Service] Early Tracking Recovery
+[2016.01.26-12.13.27:978][852]OCULUS: [From Service] [ModulationModel] Modulation sequence decoding failed
+[2016.01.26-12.13.29:644][857]OCULUS: [From Service] Early Tracking Recovery
+[2016.01.26-12.13.29:644][857]OCULUS: [From Service] Early Tracking Recovery
+[2016.01.26-12.13.34:978][873]OCULUS: [From Service] [ModulationModel] Modulation sequence decoding failed
+[2016.01.26-12.13.35:311][874]OCULUS: [From Service] Early Tracking Recovery
+[2016.01.26-12.13.35:311][874]OCULUS: [From Service] Early Tracking Recovery
+[2016.01.26-12.13.35:311][874]OCULUS: [From Service] [ModulationModel] Modulation sequence decoding failed
+[2016.01.26-12.13.36:311][877]OCULUS: [From Service] [Sensor2Impl] Lost 3 IMU samples: 1997 2 5
+[2016.01.26-12.13.43:978][900]OCULUS: [From Service] [ModulationModel] Modulation sequence decoding failed
+[2016.01.26-12.13.44:645][902]OCULUS: [From Service] [Sensor2Impl] Lost 13 IMU samples: 14980 2 15
+[2016.01.26-12.13.44:979][903]OCULUS: [From Service] [Sensor2Impl] Lost 2 IMU samples: 1998 2 4
+[2016.01.26-12.13.45:311][904]OCULUS: [From Service] [Sensor2Impl] Lost 2 IMU samples: 1998 2 4
+[2016.01.26-12.13.45:978][906]OCULUS: [From Service] [Sensor2Impl] Lost 4 IMU samples: 5991 2 6
+[2016.01.26-12.13.52:312][925]OCULUS: [From Service] [ModulationModel] Modulation sequence decoding failed
+[2016.01.26-12.13.52:644][926]OCULUS: [From Service] [Sensor2Impl] Lost 14 IMU samples: 1997 2 16
+[2016.01.26-12.13.53:645][929]OCULUS: [From Service] [Sensor2Impl] Lost 2 IMU samples: 3994 2 4
+[2016.01.26-12.14.01:311][952]OCULUS: [From Service] [Sensor2Impl] Lost 3 IMU samples: 4993 2 5
+[2016.01.26-12.14.24:977][ 23]OCULUS: [From Service] [Sensor2Impl] Lost 2 IMU samples: 3995 2 4
+[2016.01.26-12.14.25:311][ 24]OCULUS: [From Service] [ModulationModel] Modulation sequence decoding failed
+[2016.01.26-12.14.25:644][ 25]OCULUS: [From Service] [Sensor2Impl] Lost 13 IMU samples: 1997 2 15
+[2016.01.26-12.14.26:311][ 27]OCULUS: [From Service] [Sensor2Impl] Lost 2 IMU samples: 3995 2 4
+[2016.01.26-12.14.30:977][ 41]OCULUS: [From Service] [Sensor2Impl] Lost 3 IMU samples: 1997 2 5
+[2016.01.26-12.17.44:311][621]OCULUS: [From Service] [Sensor2Impl] Lost 4 IMU samples: 5992 2 6
+[2016.01.26-12.17.44:644][622]OCULUS: [From Service] [Sensor2Impl] Lost 14 IMU samples: 15978 2 16
+[2016.01.26-12.17.44:977][623]OCULUS: [From Service] [Sensor2Impl] Lost 2 IMU samples: 3995 2 4
+[2016.01.26-12.17.45:312][624]OCULUS: [From Service] [Sensor2Impl] Lost 2 IMU samples: 1998 2 4
+[2016.01.26-12.17.45:645][625]OCULUS: [From Service] [Sensor2Impl] Lost 2 IMU samples: 1997 2 4
+[2016.01.26-12.17.50:645][640]OCULUS: [From Service] [Sensor2Impl] Lost 3 IMU samples: 4993 2 5
+[2016.01.26-12.17.57:311][660]OCULUS: [From Service] [Sensor2Impl] Lost 19 IMU samples: 20971 2 21
+[2016.01.26-12.17.57:311][660]OCULUS: [From Service] [ModulationModel] Modulation sequence decoding failed
+[2016.01.26-12.17.57:645][661]OCULUS: [From Service] [Sensor2Impl] Lost 13 IMU samples: 14980 2 15
+[2016.01.26-12.17.57:978][662]OCULUS: [From Service] [Sensor2Impl] Lost 2 IMU samples: 3995 2 4
+[2016.01.26-12.17.58:644][664]OCULUS: [From Service] [Sensor2Impl] Lost 2 IMU samples: 3995 2 4
+[2016.01.26-12.17.58:644][664]OCULUS: [From Service] 
+Camera Aligned with Gravity: change 1.5 deg, 9 mm, conf 0.809
+[2016.01.26-12.17.58:644][664]OCULUS: [From Service]   Camera Position (53.9, -28.4, -8.4)
+[2016.01.26-12.17.58:644][664]OCULUS: [From Service]   Up in Camera Frame (0.031, 0.997, -0.075)
+
+[2016.01.26-12.17.58:644][664]OCULUS: [From Service] [Sensor2Impl] Lost 2 IMU samples: 1997 2 4
+[2016.01.26-12.17.59:311][666]OCULUS: [From Service] [Sensor2Impl] Lost 3 IMU samples: 4994 2 5
+[2016.01.26-12.18.08:311][693]OCULUS: [From Service] [Sensor2Impl] Lost 6 IMU samples: 7989 2 8
+[2016.01.26-12.18.08:311][693]OCULUS: [From Service] [ModulationModel] Modulation sequence decoding failed
+[2016.01.26-12.18.08:977][695]OCULUS: [From Service] [Sensor2Impl] Lost 14 IMU samples: 15978 2 16
+[2016.01.26-12.18.09:312][696]OCULUS: [From Service] [Sensor2Impl] Lost 2 IMU samples: 1997 2 4
+[2016.01.26-12.18.09:645][697]OCULUS: [From Service] [Sensor2Impl] Lost 2 IMU samples: 3995 2 4
+[2016.01.26-12.18.09:978][698]OCULUS: [From Service] [Sensor2Impl] Lost 2 IMU samples: 1997 2 4
+[2016.01.26-12.18.17:645][721]OCULUS: [From Service] [Sensor2Impl] Lost 4 IMU samples: 1997 2 6
+[2016.01.26-12.18.36:311][777]OCULUS: [From Service] [Sensor2Impl] Lost 9 IMU samples: 10986 2 11
+[2016.01.26-12.18.36:311][777]OCULUS: [From Service] [ModulationModel] Modulation sequence decoding failed
+[2016.01.26-12.18.36:978][779]OCULUS: [From Service] [Sensor2Impl] Lost 14 IMU samples: 15979 2 16
+[2016.01.26-12.18.37:644][781]OCULUS: [From Service] [Sensor2Impl] Lost 2 IMU samples: 1998 2 4
+[2016.01.26-12.18.37:979][782]OCULUS: [From Service] [Sensor2Impl] Lost 2 IMU samples: 1997 2 4
+[2016.01.26-12.18.38:312][783]OCULUS: [From Service] [Sensor2Impl] Lost 4 IMU samples: 1997 2 6
+[2016.01.26-12.18.50:644][820]OCULUS: [From Service] [Sensor2Impl] Lost 15 IMU samples: 16977 2 17
+[2016.01.26-12.18.50:978][821]OCULUS: [From Service] [ModulationModel] Modulation sequence decoding failed
+[2016.01.26-12.18.51:312][822]OCULUS: [From Service] [Sensor2Impl] Lost 13 IMU samples: 14980 2 15
+[2016.01.26-12.18.51:645][823]OCULUS: [From Service] [Sensor2Impl] Lost 2 IMU samples: 1997 2 4
+[2016.01.26-12.18.51:979][824]OCULUS: [From Service] [Sensor2Impl] Lost 2 IMU samples: 1998 2 4
+[2016.01.26-12.18.51:979][824]OCULUS: [From Service] [Sensor2Impl] Lost 6 IMU samples: 1998 2 8
+[2016.01.26-12.18.52:311][825]OCULUS: [From Service] [Sensor2Impl] Lost 3 IMU samples: 1997 2 5
+[2016.01.26-12.18.52:311][825]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-12.18.52:311][825]OCULUS: [From Service] [Sensor2Impl] Lost 3 IMU samples: 22969 20 23
+[2016.01.26-12.18.56:311][837]OCULUS: [From Service] [ExternalCamera] Skipped 6 frames
+[2016.01.26-12.18.56:311][837]OCULUS: [From Service] [Sensor2Impl] Lost 7 IMU samples: 8988 2 9
+[2016.01.26-12.18.56:645][838]OCULUS: [From Service] [Sensor2Impl] Lost 14 IMU samples: 1997 2 16
+[2016.01.26-12.18.56:978][839]OCULUS: [From Service] [Sensor2Impl] Lost 2 IMU samples: 3995 2 4
+[2016.01.26-12.18.57:311][840]OCULUS: [From Service] [Sensor2Impl] Lost 2 IMU samples: 3995 2 4
+[2016.01.26-12.18.57:644][841]OCULUS: [From Service] [Sensor2Impl] Lost 2 IMU samples: 2123 2 4
+[2016.01.26-12.19.06:311][867]OCULUS: [From Service] [Sensor2Impl] Lost 3 IMU samples: 1997 2 5
+[2016.01.26-12.19.11:311][882]OCULUS: [From Service] [Sensor2Impl] Lost 17 IMU samples: 18975 2 19
+[2016.01.26-12.19.11:645][883]OCULUS: [From Service] [ModulationModel] Modulation sequence decoding failed
+[2016.01.26-12.19.11:978][884]OCULUS: [From Service] [Sensor2Impl] Lost 14 IMU samples: 15979 2 16
+[2016.01.26-12.19.12:311][885]OCULUS: [From Service] [Sensor2Impl] Lost 2 IMU samples: 3994 2 4
+[2016.01.26-12.19.12:977][887]OCULUS: [From Service] [Sensor2Impl] Lost 2 IMU samples: 3995 2 4
+[2016.01.26-12.20.00:312][ 29]OCULUS: [From Service] Early Tracking Recovery
+[2016.01.26-12.20.00:312][ 29]OCULUS: [From Service] [Sensor2Impl] Lost 4 IMU samples: 1998 2 6
+[2016.01.26-12.20.14:978][ 73]OCULUS: [From Service] [Sensor2Impl] Lost 20 IMU samples: 21971 2 22
+[2016.01.26-12.20.15:644][ 75]OCULUS: [From Service] [Sensor2Impl] Lost 13 IMU samples: 14980 2 15
+[2016.01.26-12.20.15:978][ 76]OCULUS: [From Service] [Sensor2Impl] Lost 2 IMU samples: 3995 2 4
+[2016.01.26-12.20.16:311][ 77]OCULUS: [From Service] [Sensor2Impl] Lost 2 IMU samples: 3994 2 4
+[2016.01.26-12.20.16:644][ 78]OCULUS: [From Service] [Sensor2Impl] Lost 2 IMU samples: 1998 2 4
+[2016.01.26-12.20.24:311][101]OCULUS: [From Service] Early Tracking Recovery
+[2016.01.26-12.20.27:978][112]OCULUS: [From Service] 
+Camera Aligned with Gravity: change 1.5 deg, 10 mm, conf 0.855
+[2016.01.26-12.20.27:978][112]OCULUS: [From Service]   Camera Position (55.8, -19.0, -10.6)
+[2016.01.26-12.20.27:978][112]OCULUS: [From Service]   Up in Camera Frame (0.016, 0.998, -0.053)
+
+[2016.01.26-12.20.39:644][147]OCULUS: [From Service] 
+Camera Aligned with Gravity: change 1.6 deg, 11 mm, conf 0.752
+[2016.01.26-12.20.39:644][147]OCULUS: [From Service]   Camera Position (53.4, -29.4, -8.9)
+[2016.01.26-12.20.39:644][147]OCULUS: [From Service]   Up in Camera Frame (0.036, 0.997, -0.073)
+
+[2016.01.26-12.20.51:644][183]OCULUS: [From Service] 
+Camera Aligned with Gravity: change 2.0 deg, 9 mm, conf 0.75
+[2016.01.26-12.20.51:644][183]OCULUS: [From Service]   Camera Position (57.1, -21.8, -10.6)
+[2016.01.26-12.20.51:644][183]OCULUS: [From Service]   Up in Camera Frame (0.006, 0.998, -0.055)
+
+[2016.01.26-12.21.04:311][221]OCULUS: [From Service] 
+Camera Aligned with Gravity: change 1.8 deg, 7 mm, conf 0.752
+[2016.01.26-12.21.04:311][221]OCULUS: [From Service]   Camera Position (53.8, -27.9, -9.5)
+[2016.01.26-12.21.04:311][221]OCULUS: [From Service]   Up in Camera Frame (0.034, 0.997, -0.068)
+
+[2016.01.26-12.21.16:977][259]OCULUS: [From Service] 
+Camera Aligned with Gravity: change 1.8 deg, 5 mm, conf 0.752
+[2016.01.26-12.21.16:977][259]OCULUS: [From Service]   Camera Position (57.0, -24.5, -10.4)
+[2016.01.26-12.21.16:977][259]OCULUS: [From Service]   Up in Camera Frame (0.004, 0.998, -0.058)
+
+[2016.01.26-12.21.28:311][293]OCULUS: [From Service] 
+Camera Aligned with Gravity: change 2.6 deg, 17 mm, conf 0.753
+[2016.01.26-12.21.28:311][293]OCULUS: [From Service]   Camera Position (52.0, -41.1, -8.2)
+[2016.01.26-12.21.28:311][293]OCULUS: [From Service]   Up in Camera Frame (0.042, 0.996, -0.083)
+
+[2016.01.26-12.21.34:978][313]OCULUS: [From Service] Early Tracking Recovery
+[2016.01.26-12.21.35:644][315]OCULUS: [From Service] [Sensor2Impl] Lost 3 IMU samples: 1998 2 5
+[2016.01.26-12.21.53:644][369]OCULUS: [From Service] [Sensor2Impl] Lost 9 IMU samples: 10985 2 11
+[2016.01.26-12.21.53:978][370]OCULUS: [From Service] [Sensor2Impl] Lost 14 IMU samples: 15979 2 16
+[2016.01.26-12.21.54:311][371]OCULUS: [From Service] [Sensor2Impl] Lost 2 IMU samples: 1998 2 4
+[2016.01.26-12.21.54:978][373]OCULUS: [From Service] [Sensor2Impl] Lost 2 IMU samples: 3995 2 4
+[2016.01.26-12.21.57:978][382]OCULUS: [From Service] 
+Camera Aligned with Gravity: change 1.7 deg, 8 mm, conf 0.752
+[2016.01.26-12.21.57:978][382]OCULUS: [From Service]   Camera Position (54.8, -34.0, -9.4)
+[2016.01.26-12.21.57:978][382]OCULUS: [From Service]   Up in Camera Frame (0.016, 0.998, -0.067)
+
+[2016.01.26-12.22.05:978][406]OCULUS: [From Service] [Sensor2Impl] Lost 4 IMU samples: 1997 2 6
+[2016.01.26-12.22.21:978][454]OCULUS: [From Service] [Sensor2Impl] Lost 2 IMU samples: 2996 2 4
+[2016.01.26-12.22.22:311][455]OCULUS: [From Service] [ModulationModel] Modulation sequence decoding failed
+[2016.01.26-12.22.22:311][455]OCULUS: [From Service] [Sensor2Impl] Lost 14 IMU samples: 15979 2 16
+[2016.01.26-12.22.22:311][455]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-12.22.22:311][455]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-12.22.22:311][455]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-12.22.22:311][455]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-12.22.22:311][455]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-12.22.22:311][455]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-12.22.22:311][455]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-12.22.22:645][456]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-12.22.22:645][456]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-12.22.22:645][456]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-12.22.22:645][456]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-12.22.22:645][456]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-12.22.22:645][456]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-12.22.22:645][456]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-12.22.22:645][456]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-12.22.22:645][456]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-12.22.22:645][456]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-12.22.22:645][456]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-12.22.22:645][456]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-12.22.22:645][456]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-12.22.22:645][456]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-12.22.22:645][456]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-12.22.22:645][456]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-12.22.22:645][456]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-12.22.22:645][456]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-12.22.22:645][456]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-12.22.22:645][456]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-12.22.22:977][457]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-12.22.22:977][457]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-12.22.22:977][457]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-12.22.22:977][457]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-12.22.22:977][457]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-12.22.22:977][457]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-12.22.22:977][457]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-12.22.22:977][457]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-12.22.22:977][457]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-12.22.22:977][457]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-12.22.22:977][457]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-12.22.22:977][457]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-12.22.22:977][457]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-12.22.22:977][457]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-12.22.22:977][457]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-12.22.22:977][457]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-12.22.22:977][457]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-12.22.22:977][457]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-12.22.22:977][457]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-12.22.22:977][457]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-12.22.23:311][458]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-12.22.23:311][458]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-12.22.23:311][458]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-12.22.23:311][458]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-12.22.23:311][458]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-12.22.23:311][458]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-12.22.23:311][458]OCULUS: [From Service] {ERR-017} [HMD] WARNING: LED state change unverified!
+[2016.01.26-12.22.23:311][458]OCULUS: [From Service] [Sensor2Impl] Lost 2 IMU samples: 1997 2 4
+[2016.01.26-12.22.25:978][466]OCULUS: [From Service] [Sensor2Impl] Lost 3 IMU samples: 4993 2 5
+[2016.01.26-12.22.40:978][511]OCULUS: [From Service] [Sensor2Impl] Lost 20 IMU samples: 21971 2 22
+[2016.01.26-12.22.40:978][511]OCULUS: [From Service] [ModulationModel] Modulation sequence decoding failed
+[2016.01.26-12.22.41:312][512]OCULUS: [From Service] [Sensor2Impl] Lost 14 IMU samples: 1998 2 16
+[2016.01.26-12.23.00:311][569]OCULUS: [From Service] [Sensor2Impl] Lost 3 IMU samples: 1998 2 5
+[2016.01.26-12.23.18:645][624]OCULUS: [From Service] [Sensor2Impl] Lost 7 IMU samples: 8988 2 9
+[2016.01.26-12.23.18:645][624]OCULUS: [From Service] [ModulationModel] Modulation sequence decoding failed
+[2016.01.26-12.23.18:978][625]OCULUS: [From Service] [Sensor2Impl] Lost 13 IMU samples: 14981 2 15
+[2016.01.26-12.23.19:978][628]OCULUS: [From Service] [Sensor2Impl] Lost 2 IMU samples: 3994 2 4
+[2016.01.26-12.23.36:978][679]OCULUS: [From Service] 
+Camera Aligned with Gravity: change 1.7 deg, 4 mm, conf 0.752
+[2016.01.26-12.23.36:978][679]OCULUS: [From Service]   Camera Position (55.5, -32.8, -10.2)
+[2016.01.26-12.23.36:978][679]OCULUS: [From Service]   Up in Camera Frame (0.009, 0.998, -0.058)
+
+[2016.01.26-12.23.40:978][691]OCULUS: [From Service] [Sensor2Impl] Lost 5 IMU samples: 1997 2 7
+[2016.01.26-12.23.41:311][692]OCULUS: [From Service] Early Tracking Recovery
+[2016.01.26-12.26.57:314][280]OCULUS: [From Service] [Sensor2Impl] Lost 11 IMU samples: 12983 2 13
+[2016.01.26-12.26.58:314][283]OCULUS: [From Service] [Sensor2Impl] Lost 13 IMU samples: 14981 2 15
+[2016.01.26-12.26.58:314][283]OCULUS: [From Service] [Sensor2Impl] Lost 2 IMU samples: 1997 2 4
+[2016.01.26-12.26.58:980][285]OCULUS: [From Service] [Sensor2Impl] Lost 2 IMU samples: 3994 2 4
+[2016.01.26-12.26.59:313][286]OCULUS: [From Service] [Sensor2Impl] Lost 2 IMU samples: 1997 2 4
+[2016.01.26-12.27.01:647][293]OCULUS: [From Service] [Sensor2Impl] Lost 3 IMU samples: 4994 2 5
+[2016.01.26-12.27.04:314][301]OCULUS: [From Service] [Sensor2Impl] Lost 10 IMU samples: 11984 2 12
+[2016.01.26-12.27.04:647][302]OCULUS: [From Service] [Sensor2Impl] Lost 14 IMU samples: 15979 2 16
+[2016.01.26-12.27.05:314][304]OCULUS: [From Service] [Sensor2Impl] Lost 2 IMU samples: 1997 2 4
+[2016.01.26-12.27.05:647][305]OCULUS: [From Service] [Sensor2Impl] Lost 2 IMU samples: 3995 2 4
+[2016.01.26-12.28.02:647][476]OCULUS: [From Service] 
+Camera Aligned with Gravity: change 1.5 deg, 6 mm, conf 0.795
+[2016.01.26-12.28.02:647][476]OCULUS: [From Service]   Camera Position (52.9, -38.2, -9.8)
+[2016.01.26-12.28.02:647][476]OCULUS: [From Service]   Up in Camera Frame (0.034, 0.997, -0.065)
+
+[2016.01.26-12.28.12:313][505]OCULUS: [From Service] 
+Camera Aligned with Gravity: change 1.5 deg, 3 mm, conf 0.851
+[2016.01.26-12.28.12:313][505]OCULUS: [From Service]   Camera Position (56.0, -36.7, -10.3)
+[2016.01.26-12.28.12:313][505]OCULUS: [From Service]   Up in Camera Frame (0.008, 0.998, -0.061)
+
+[2016.01.26-12.28.23:647][539]OCULUS: [From Service] 
+Camera Aligned with Gravity: change 1.5 deg, 8 mm, conf 0.76
+[2016.01.26-12.28.23:647][539]OCULUS: [From Service]   Camera Position (53.5, -44.2, -9.9)
+[2016.01.26-12.28.23:647][539]OCULUS: [From Service]   Up in Camera Frame (0.033, 0.997, -0.070)
+
+[2016.01.26-12.28.42:647][596]OCULUS: [From Service] 
+Camera Aligned with Gravity: change 2.5 deg, 5 mm, conf 0.753
+[2016.01.26-12.28.42:647][596]OCULUS: [From Service]   Camera Position (58.3, -45.8, -10.3)
+[2016.01.26-12.28.42:647][596]OCULUS: [From Service]   Up in Camera Frame (-0.010, 0.998, -0.067)
+
+[2016.01.26-12.28.46:313][607]OCULUS: [From Service] 
+Camera Aligned with Gravity: change 2.1 deg, 5 mm, conf 0.751
+[2016.01.26-12.28.46:313][607]OCULUS: [From Service]   Camera Position (54.5, -48.4, -10.4)
+[2016.01.26-12.28.46:313][607]OCULUS: [From Service]   Up in Camera Frame (0.027, 0.997, -0.067)
+
+[2016.01.26-12.28.51:981][624]OCULUS: [From Service] Early Tracking Recovery
+[2016.01.26-12.28.51:981][624]OCULUS: [From Service] Early Tracking Recovery
+[2016.01.26-12.28.52:647][626]OCULUS: [From Service] [Sensor2Impl] Lost 2 IMU samples: 1997 2 4
+[2016.01.26-12.29.19:314][706]OCULUS: [From Service] [Sensor2Impl] Lost 10 IMU samples: 11985 2 12
+[2016.01.26-12.29.19:981][708]OCULUS: [From Service] [Sensor2Impl] Lost 14 IMU samples: 1998 2 16
+[2016.01.26-12.29.20:314][709]OCULUS: [From Service] [Sensor2Impl] Lost 2 IMU samples: 3995 2 4
+[2016.01.26-12.29.20:647][710]OCULUS: [From Service] [Sensor2Impl] Lost 2 IMU samples: 1997 2 4
+[2016.01.26-12.29.20:980][711]OCULUS: [From Service] [Sensor2Impl] Lost 2 IMU samples: 1998 2 4
+[2016.01.26-12.29.27:647][731]OCULUS: [From Service] 
+Camera Aligned with Gravity: change 1.5 deg, 3 mm, conf 0.773
+[2016.01.26-12.29.27:647][731]OCULUS: [From Service]   Camera Position (57.1, -47.7, -10.7)
+[2016.01.26-12.29.27:647][731]OCULUS: [From Service]   Up in Camera Frame (0.001, 0.998, -0.064)
+
+[2016.01.26-12.29.30:981][741]OCULUS: [From Service] Early Tracking Recovery
+[2016.01.26-12.29.30:981][741]OCULUS: [From Service] Early Tracking Recovery
+[2016.01.26-12.29.31:313][742]OCULUS: [From Service] [Sensor2Impl] Lost 3 IMU samples: 1998 2 5
+[2016.01.26-12.30.58:981][  5]OCULUS: [From Service] [Sensor2Impl] Lost 16 IMU samples: 17976 2 18
+[2016.01.26-12.30.59:313][  6]OCULUS: [From Service] [Sensor2Impl] Lost 14 IMU samples: 15980 2 16
+[2016.01.26-12.30.59:647][  7]OCULUS: [From Service] [Sensor2Impl] Lost 2 IMU samples: 1997 2 4
+[2016.01.26-12.31.00:313][  9]OCULUS: [From Service] [Sensor2Impl] Lost 2 IMU samples: 3995 2 4
+[2016.01.26-12.31.14:980][ 53]OCULUS: [From Service] Early Tracking Recovery
+[2016.01.26-12.31.15:648][ 55]OCULUS: [From Service] [Sensor2Impl] Lost 3 IMU samples: 1997 2 5
+[2016.01.26-12.32.48:997][335]OCULUS: [From Service] [Sensor2Impl] Lost 16 IMU samples: 17977 2 18
+[2016.01.26-12.32.51:664][343]OCULUS: [From Service] [Sensor2Impl] Lost 13 IMU samples: 1997 2 15
+[2016.01.26-12.32.51:999][344]OCULUS: [From Service] [Sensor2Impl] Lost 2 IMU samples: 3995 2 4
+[2016.01.26-12.32.52:665][346]OCULUS: [From Service] [Sensor2Impl] Lost 2 IMU samples: 3994 2 4
+[2016.01.26-12.32.52:665][346]OCULUS: [From Service] [Sensor2Impl] Lost 2 IMU samples: 3995 2 4
+[2016.01.26-12.32.53:331][348]OCULUS: [From Service] Early Tracking Recovery
+[2016.01.26-12.32.54:664][352]OCULUS: [From Service] [ModulationModel] Modulation sequence decoding failed
+[2016.01.26-12.32.57:997][362]OCULUS: [From Service] [TrackedHMD] Ransac failed (eliminated 5 out of 5 input blobs)
+[2016.01.26-12.32.58:331][363]OCULUS: [From Service] [ModulationModel] Modulation sequence decoding failed
+[2016.01.26-12.33.12:665][406]OCULUS: [From Service] Early Tracking Recovery
+[2016.01.26-12.33.14:331][411]OCULUS: [From Service] Early Tracking Recovery
+[2016.01.26-12.33.14:331][411]OCULUS: [From Service] Early Tracking Recovery
+[2016.01.26-12.33.56:997][539]OCULUS: [From Service] Early Tracking Recovery
+[2016.01.26-12.33.56:997][539]OCULUS: [From Service] Early Tracking Recovery
+[2016.01.26-12.33.56:997][539]OCULUS: [From Service] Early Tracking Recovery
+[2016.01.26-12.33.57:331][540]OCULUS: [From Service] Early Tracking Recovery
+[2016.01.26-12.33.57:331][540]OCULUS: [From Service] Early Tracking Recovery
+[2016.01.26-12.33.57:331][540]OCULUS: [From Service] Early Tracking Recovery
+[2016.01.26-12.34.09:665][577]OCULUS: [From Service] Early Tracking Recovery
+[2016.01.26-12.34.11:664][583]OCULUS: [From Service] [ModulationModel] Modulation sequence decoding failed
+[2016.01.26-12.34.11:998][584]OCULUS: [From Service] [ModulationModel] Modulation sequence decoding failed
+[2016.01.26-12.34.14:997][593]OCULUS: [From Service] 
+Camera Aligned with Gravity: change 1.5 deg, 6 mm, conf 0.809
+[2016.01.26-12.34.14:997][593]OCULUS: [From Service]   Camera Position (53.8, -52.9, -10.3)
+[2016.01.26-12.34.14:997][593]OCULUS: [From Service]   Up in Camera Frame (0.026, 0.997, -0.070)
+
+[2016.01.26-12.34.46:331][687]OCULUS: [From Service] Early Tracking Recovery
+[2016.01.26-12.34.46:331][687]OCULUS: [From Service] Early Tracking Recovery
+[2016.01.26-12.34.46:664][688]OCULUS: [From Service] [ModulationModel] Modulation sequence decoding failed
+[2016.01.26-12.34.46:997][689]OCULUS: [From Service] Early Tracking Recovery
+[2016.01.26-12.34.46:997][689]OCULUS: [From Service] Early Tracking Recovery
+[2016.01.26-12.34.47:998][692]OCULUS: [From Service] [ModulationModel] Modulation sequence decoding failed
+[2016.01.26-12.34.48:331][693]OCULUS: [From Service] [ModulationModel] Modulation sequence decoding failed
+[2016.01.26-12.34.56:998][719]OCULUS: [From Service] Early Tracking Recovery
+[2016.01.26-12.35.16:331][777]OCULUS: [From Service] Early Tracking Recovery
+[2016.01.26-12.35.16:331][777]OCULUS: [From Service] Early Tracking Recovery
+[2016.01.26-12.35.29:331][816]OCULUS: [From Service] Early Tracking Recovery
+[2016.01.26-12.35.29:331][816]OCULUS: [From Service] Early Tracking Recovery
+[2016.01.26-12.36.19:332][966]OCULUS: [From Service] [ModulationModel] Modulation sequence decoding failed
+[2016.01.26-12.36.22:331][975]OCULUS: [From Service] Early Tracking Recovery
+[2016.01.26-12.36.22:331][975]OCULUS: [From Service] Early Tracking Recovery
+[2016.01.26-12.36.24:331][981]OCULUS: [From Service] [ModulationModel] Modulation sequence decoding failed
+[2016.01.26-12.36.25:998][986]OCULUS: [From Service] 
+Camera Aligned with Gravity: change 1.9 deg, 11 mm, conf 0.752
+[2016.01.26-12.36.25:998][986]OCULUS: [From Service]   Camera Position (60.8, -61.4, -11.1)
+[2016.01.26-12.36.25:998][986]OCULUS: [From Service]   Up in Camera Frame (-0.007, 0.998, -0.069)
+
+[2016.01.26-12.36.45:998][ 46]OCULUS: [From Service] Early Tracking Recovery
+[2016.01.26-12.36.46:332][ 47]OCULUS: [From Service] Early Tracking Recovery
+[2016.01.26-12.36.46:665][ 48]OCULUS: [From Service] [ModulationModel] Modulation sequence decoding failed
+[2016.01.26-12.37.05:998][106]OCULUS: [From Service] 
+Camera Aligned with Gravity: change 2.7 deg, 14 mm, conf 0.753
+[2016.01.26-12.37.05:998][106]OCULUS: [From Service]   Camera Position (54.9, -48.7, -9.8)
+[2016.01.26-12.37.05:998][106]OCULUS: [From Service]   Up in Camera Frame (0.040, 0.997, -0.072)
+
+[2016.01.26-12.37.13:665][129]OCULUS: [From Service] Early Tracking Recovery
+[2016.01.26-12.37.13:665][129]OCULUS: [From Service] Early Tracking Recovery
+[2016.01.26-12.37.44:332][221]OCULUS: [From Service] [Sensor2Impl] Lost 4 IMU samples: 5992 2 6
+[2016.01.26-12.38.10:066][492]Cmd: QUIT_EDITOR
+[2016.01.26-12.38.10:172][492]LogHMD: Oculus shutdown.
+[2016.01.26-12.38.10:246][492]LogExit: Preparing to exit.
+[2016.01.26-12.38.10:581][492]LogExit: Editor shut down
+[2016.01.26-12.38.10:581][492]LogExit: Transaction tracking system shut down
+[2016.01.26-12.38.10:583][492]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F1D95F53A0
+[2016.01.26-12.38.10:583][492]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F1E8DEC860
+[2016.01.26-12.38.10:583][492]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F1EB0AA5C0
+[2016.01.26-12.38.10:583][492]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F1EEA147C0
+[2016.01.26-12.38.10:638][492]LogExit: Object subsystem successfully closed.
+[2016.01.26-12.38.10:673][492]LogModuleManager: Shutting down and abandoning module CrashTracker (173)
+[2016.01.26-12.38.10:673][492]LogModuleManager: Shutting down and abandoning module SuperSearch (172)
+[2016.01.26-12.38.10:673][492]LogModuleManager: Shutting down and abandoning module SceneOutliner (171)
+[2016.01.26-12.38.10:673][492]LogModuleManager: Shutting down and abandoning module EditorWidgets (170)
+[2016.01.26-12.38.10:673][492]LogModuleManager: Shutting down and abandoning module CollectionManager (169)
+[2016.01.26-12.38.10:673][492]LogModuleManager: Shutting down and abandoning module StatsViewer (168)
+[2016.01.26-12.38.10:673][492]LogModuleManager: Shutting down and abandoning module FoliageEdit (167)
+[2016.01.26-12.38.10:673][492]LogModuleManager: Shutting down and abandoning module LandscapeEditor (166)
+[2016.01.26-12.38.10:673][492]LogModuleManager: Shutting down and abandoning module MeshPaint (165)
+[2016.01.26-12.38.10:673][492]LogModuleManager: Shutting down and abandoning module ActorPickerMode (164)
+[2016.01.26-12.38.10:673][492]LogModuleManager: Shutting down and abandoning module GeometryMode (163)
+[2016.01.26-12.38.10:673][492]LogModuleManager: Shutting down and abandoning module TextureAlignMode (162)
+[2016.01.26-12.38.10:673][492]LogModuleManager: Shutting down and abandoning module BspMode (161)
+[2016.01.26-12.38.10:673][492]LogModuleManager: Shutting down and abandoning module PlacementMode (160)
+[2016.01.26-12.38.10:673][492]LogModuleManager: Shutting down and abandoning module AutomationWorker (159)
+[2016.01.26-12.38.10:673][492]LogModuleManager: Shutting down and abandoning module CharacterAI (158)
+[2016.01.26-12.38.10:673][492]LogModuleManager: Shutting down and abandoning module SmartSnapping (157)
+[2016.01.26-12.38.10:673][492]LogModuleManager: Shutting down and abandoning module ViewportSnapping (156)
+[2016.01.26-12.38.10:673][492]LogModuleManager: Shutting down and abandoning module LogVisualizer (155)
+[2016.01.26-12.38.10:673][492]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (154)
+[2016.01.26-12.38.10:673][492]LogModuleManager: Shutting down and abandoning module IntroTutorials (153)
+[2016.01.26-12.38.10:673][492]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (152)
+[2016.01.26-12.38.10:673][492]LogModuleManager: Shutting down and abandoning module HardwareTargeting (151)
+[2016.01.26-12.38.10:673][492]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (150)
+[2016.01.26-12.38.10:673][492]LogModuleManager: Shutting down and abandoning module UndoHistory (149)
+[2016.01.26-12.38.10:673][492]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (148)
+[2016.01.26-12.38.10:673][492]LogModuleManager: Shutting down and abandoning module UserFeedback (147)
+[2016.01.26-12.38.10:673][492]LogModuleManager: Shutting down and abandoning module XmlParser (146)
+[2016.01.26-12.38.10:673][492]LogModuleManager: Shutting down and abandoning module Blutility (145)
+[2016.01.26-12.38.10:673][492]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (144)
+[2016.01.26-12.38.10:673][492]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (143)
+[2016.01.26-12.38.10:673][492]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (142)
+[2016.01.26-12.38.10:833][492]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (141)
+[2016.01.26-12.38.10:833][492]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (140)
+[2016.01.26-12.38.10:833][492]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (139)
+[2016.01.26-12.38.10:833][492]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (138)
+[2016.01.26-12.38.10:833][492]LogModuleManager: Shutting down and abandoning module InputBindingEditor (137)
+[2016.01.26-12.38.10:833][492]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (136)
+[2016.01.26-12.38.10:833][492]LogModuleManager: Shutting down and abandoning module SettingsEditor (135)
+[2016.01.26-12.38.10:833][492]LogModuleManager: Shutting down and abandoning module ProjectLauncher (134)
+[2016.01.26-12.38.10:833][492]LogModuleManager: Shutting down and abandoning module SessionFrontend (133)
+[2016.01.26-12.38.10:833][492]LogModuleManager: Shutting down and abandoning module ProfilerClient (132)
+[2016.01.26-12.38.10:833][492]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (131)
+[2016.01.26-12.38.10:833][492]LogModuleManager: Shutting down and abandoning module DeviceManager (130)
+[2016.01.26-12.38.10:833][492]LogModuleManager: Shutting down and abandoning module AutomationController (129)
+[2016.01.26-12.38.10:833][492]LogModuleManager: Shutting down and abandoning module AutomationWindow (128)
+[2016.01.26-12.38.10:833][492]LogModuleManager: Shutting down and abandoning module Layers (127)
+[2016.01.26-12.38.10:834][492]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (126)
+[2016.01.26-12.38.10:834][492]LogModuleManager: Shutting down and abandoning module DetailCustomizations (125)
+[2016.01.26-12.38.10:834][492]LogModuleManager: Shutting down and abandoning module PackagesDialog (124)
+[2016.01.26-12.38.10:834][492]LogModuleManager: Shutting down and abandoning module AssetRegistry (123)
+[2016.01.26-12.38.10:850][492]LogModuleManager: Shutting down and abandoning module Persona (122)
+[2016.01.26-12.38.10:850][492]LogModuleManager: Shutting down and abandoning module SlateReflector (121)
+[2016.01.26-12.38.10:850][492]LogModuleManager: Shutting down and abandoning module LevelEditor (120)
+[2016.01.26-12.38.10:851][492]LogModuleManager: Shutting down and abandoning module Kismet (119)
+[2016.01.26-12.38.10:851][492]LogModuleManager: Shutting down and abandoning module GraphEditor (118)
+[2016.01.26-12.38.10:851][492]LogModuleManager: Shutting down and abandoning module ClassViewer (117)
+[2016.01.26-12.38.10:851][492]LogModuleManager: Shutting down and abandoning module Toolbox (116)
+[2016.01.26-12.38.10:851][492]LogModuleManager: Shutting down and abandoning module ModuleUI (115)
+[2016.01.26-12.38.10:851][492]LogModuleManager: Shutting down and abandoning module MovieSceneTools (114)
+[2016.01.26-12.38.10:851][492]LogModuleManager: Shutting down and abandoning module OutputLog (113)
+[2016.01.26-12.38.10:851][492]LogModuleManager: Shutting down and abandoning module GammaUI (112)
+[2016.01.26-12.38.10:851][492]LogModuleManager: Shutting down and abandoning module Documentation (111)
+[2016.01.26-12.38.10:851][492]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (110)
+[2016.01.26-12.38.10:851][492]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (109)
+[2016.01.26-12.38.10:851][492]LogModuleManager: Shutting down and abandoning module HTTP (108)
+[2016.01.26-12.38.10:851][492]LogModuleManager: Shutting down and abandoning module AnalyticsET (107)
+[2016.01.26-12.38.10:851][492]LogModuleManager: Shutting down and abandoning module Analytics (106)
+[2016.01.26-12.38.10:851][492]LogModuleManager: Shutting down and abandoning module AITestSuite (105)
+[2016.01.26-12.38.10:851][492]LogModuleManager: Shutting down and abandoning module GameplayDebugger (104)
+[2016.01.26-12.38.10:851][492]LogModuleManager: Shutting down and abandoning module AIModule (103)
+[2016.01.26-12.38.10:851][492]LogModuleManager: Shutting down and abandoning module ProfilerService (102)
+[2016.01.26-12.38.10:932][492]LogModuleManager: Shutting down and abandoning module TaskGraph (101)
+[2016.01.26-12.38.10:932][492]LogModuleManager: Shutting down and abandoning module SlateRemote (100)
+[2016.01.26-12.38.10:932][492]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (99)
+[2016.01.26-12.38.10:932][492]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (98)
+[2016.01.26-12.38.10:932][492]LogModuleManager: Shutting down and abandoning module CableComponent (97)
+[2016.01.26-12.38.10:932][492]LogModuleManager: Shutting down and abandoning module MessagingDebugger (96)
+[2016.01.26-12.38.10:932][492]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (95)
+[2016.01.26-12.38.10:932][492]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (94)
+[2016.01.26-12.38.10:932][492]LogModuleManager: Shutting down and abandoning module PluginsEditor (93)
+[2016.01.26-12.38.10:932][492]LogModuleManager: Shutting down and abandoning module MainFrame (92)
+[2016.01.26-12.38.10:932][492]LogModuleManager: Shutting down and abandoning module EpicSurvey (91)
+[2016.01.26-12.38.10:932][492]LogModuleManager: Shutting down and abandoning module DesktopPlatform (90)
+[2016.01.26-12.38.10:932][492]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (89)
+[2016.01.26-12.38.10:932][492]LogModuleManager: Shutting down and abandoning module HotReload (88)
+[2016.01.26-12.38.10:933][492]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (87)
+[2016.01.26-12.38.10:933][492]LogModuleManager: Shutting down and abandoning module UObjectPlugin (86)
+[2016.01.26-12.38.10:933][492]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (85)
+[2016.01.26-12.38.10:933][492]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (84)
+[2016.01.26-12.38.10:933][492]LogModuleManager: Shutting down and abandoning module SourceControl (83)
+[2016.01.26-12.38.10:933][492]LogModuleManager: Shutting down and abandoning module GitSourceControl (82)
+[2016.01.26-12.38.10:933][492]LogModuleManager: Shutting down and abandoning module ExportObjectPlugin (81)
+[2016.01.26-12.38.10:933][492]LogModuleManager: Shutting down and abandoning module BlankPlugin (80)
+[2016.01.26-12.38.10:933][492]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (79)
+[2016.01.26-12.38.10:933][492]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (78)
+[2016.01.26-12.38.10:933][492]LogModuleManager: Shutting down and abandoning module ContentBrowser (77)
+[2016.01.26-12.38.10:933][492]LogModuleManager: Shutting down and abandoning module Paper2DEditor (76)
+[2016.01.26-12.38.10:934][492]LogModuleManager: Shutting down and abandoning module ScriptPlugin (75)
+[2016.01.26-12.38.10:934][492]LogModuleManager: Shutting down and abandoning module UdpMessaging (74)
+[2016.01.26-12.38.11:035][492]LogModuleManager: Shutting down and abandoning module Paper2D (73)
+[2016.01.26-12.38.11:035][492]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (72)
+[2016.01.26-12.38.11:037][492]LogModuleManager: Shutting down and abandoning module Media (71)
+[2016.01.26-12.38.11:037][492]LogModuleManager: Shutting down and abandoning module WmfMedia (70)
+[2016.01.26-12.38.11:038][492]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (69)
+[2016.01.26-12.38.11:038][492]LogModuleManager: Shutting down and abandoning module PropertyEditor (68)
+[2016.01.26-12.38.11:038][492]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (67)
+[2016.01.26-12.38.11:038][492]LogModuleManager: Shutting down and abandoning module FunctionalTesting (66)
+[2016.01.26-12.38.11:038][492]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (65)
+[2016.01.26-12.38.11:038][492]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (64)
+[2016.01.26-12.38.11:038][492]LogModuleManager: Shutting down and abandoning module MessageLog (63)
+[2016.01.26-12.38.11:038][492]LogModuleManager: Shutting down and abandoning module Sequencer (62)
+[2016.01.26-12.38.11:038][492]LogModuleManager: Shutting down and abandoning module AssetTools (61)
+[2016.01.26-12.38.11:038][492]LogModuleManager: Shutting down and abandoning module UMGEditor (60)
+[2016.01.26-12.38.11:038][492]LogModuleManager: Shutting down and abandoning module UMG (59)
+[2016.01.26-12.38.11:038][492]LogModuleManager: Shutting down and abandoning module Slate (58)
+[2016.01.26-12.38.11:038][492]LogModuleManager: Shutting down and abandoning module EditorStyle (57)
+[2016.01.26-12.38.11:042][492]LogModuleManager: Shutting down and abandoning module SessionServices (56)
+[2016.01.26-12.38.11:042][492]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (55)
+[2016.01.26-12.38.11:042][492]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (54)
+[2016.01.26-12.38.11:042][492]LogModuleManager: Shutting down and abandoning module XAudio2 (53)
+[2016.01.26-12.38.11:042][492]LogModuleManager: Shutting down and abandoning module Networking (51)
+[2016.01.26-12.38.11:042][492]LogModuleManager: Shutting down and abandoning module Core (50)
+[2016.01.26-12.38.11:042][492]LogModuleManager: Shutting down and abandoning module KismetCompiler (49)
+[2016.01.26-12.38.11:042][492]LogModuleManager: Shutting down and abandoning module PhysXFormats (48)
+[2016.01.26-12.38.11:042][492]LogModuleManager: Shutting down and abandoning module MeshUtilities (47)
+[2016.01.26-12.38.11:042][492]LogModuleManager: Shutting down and abandoning module DerivedDataCache (46)
+[2016.01.26-12.38.11:053][492]LogDerivedDataCache: Shutdown
+[2016.01.26-12.38.11:053][492]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (45)
+[2016.01.26-12.38.11:053][492]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (44)
+[2016.01.26-12.38.11:053][492]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (43)
+[2016.01.26-12.38.11:053][492]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (42)
+[2016.01.26-12.38.11:053][492]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (41)
+[2016.01.26-12.38.11:053][492]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (40)
+[2016.01.26-12.38.11:053][492]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (39)
+[2016.01.26-12.38.11:053][492]LogModuleManager: Shutting down and abandoning module ImageWrapper (38)
+[2016.01.26-12.38.11:053][492]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (37)
+[2016.01.26-12.38.11:053][492]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (36)
+[2016.01.26-12.38.11:053][492]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (35)
+[2016.01.26-12.38.11:053][492]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (34)
+[2016.01.26-12.38.11:053][492]LogModuleManager: Shutting down and abandoning module Messaging (33)
+[2016.01.26-12.38.11:053][492]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (32)
+[2016.01.26-12.38.11:053][492]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (31)
+[2016.01.26-12.38.11:053][492]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (30)
+[2016.01.26-12.38.11:053][492]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (29)
+[2016.01.26-12.38.11:053][492]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (28)
+[2016.01.26-12.38.11:053][492]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (27)
+[2016.01.26-12.38.11:053][492]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (26)
+[2016.01.26-12.38.11:053][492]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (25)
+[2016.01.26-12.38.11:053][492]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (24)
+[2016.01.26-12.38.11:053][492]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (23)
+[2016.01.26-12.38.11:053][492]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (22)
+[2016.01.26-12.38.11:053][492]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (21)
+[2016.01.26-12.38.11:053][492]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2016.01.26-12.38.11:053][492]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2016.01.26-12.38.11:053][492]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2016.01.26-12.38.11:053][492]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2016.01.26-12.38.11:053][492]LogModuleManager: Shutting down and abandoning module OculusRift (15)
+[2016.01.26-12.38.11:053][492]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2016.01.26-12.38.11:053][492]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2016.01.26-12.38.11:053][492]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2016.01.26-12.38.11:053][492]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2016.01.26-12.38.11:053][492]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2016.01.26-12.38.11:057][492]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2016.01.26-12.38.11:057][492]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2016.01.26-12.38.11:057][492]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.01.26-12.38.11:057][492]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.01.26-12.38.11:057][492]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.01.26-12.38.11:057][492]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.01.26-12.38.11:057][492]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.01.26-12.38.11:057][492]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.01.26-12.38.11:057][492]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.01.26-12.38.11:058][492]LogExit: Exiting.
+[2016.01.26-12.38.11:063][492]Log file closed, 01/26/16 13:38:11
