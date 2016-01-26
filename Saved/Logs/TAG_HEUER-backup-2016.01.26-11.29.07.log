@@ -1,0 +1,558 @@
+﻿Log file open, 01/26/16 10:07:57
+LogInit:Display: Running engine for game: TAG_HEUER
+LogInit: Version: 4.7.6-0+++depot+UE4-Releases+4.7
+LogInit: API Version: 0
+LogInit: Compiled (64-bit): Nov 17 2015 19:42:46
+LogInit: Compiled with Visual C++: 18.00.40629.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.7
+LogInit: Command line:  
+LogInit: Base directory: C:/UnrealEngine-4.7/Engine/Binaries/Win64/
+LogInit: Rocket: 0
+[2016.01.26-09.07.57:331][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
+[2016.01.26-09.07.57:379][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2016.01.26-09.07.57:385][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.01.26-09.07.57:392][  0]LogInit: Object subsystem initialized
+[2016.01.26-09.07.57:393][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2016.01.26-09.07.57:393][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/XperienciaRender/Documents/Unreal Projects/TAG_HEUER/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2016.01.26-09.07.57:393][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2016.01.26-09.07.57:393][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/XperienciaRender/Documents/Unreal Projects/TAG_HEUER/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2016.01.26-09.07.57:393][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2016.01.26-09.07.57:393][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/XperienciaRender/Documents/Unreal Projects/TAG_HEUER/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2016.01.26-09.07.57:393][  0]LogInit: Selected Device Profile: [Windows]
+[2016.01.26-09.07.57:393][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.01.26-09.07.57:396][  0]LogInit: Computer: XVIRTUALRENDER
+[2016.01.26-09.07.57:396][  0]LogInit: User: XperienciaRender
+[2016.01.26-09.07.57:396][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.01.26-09.07.57:396][  0]LogInit: High frequency timer resolution =3.914065 MHz
+[2016.01.26-09.07.57:397][  0]LogMemory: Memory total: Physical=32.0GB (32GB approx) Virtual=8192.0GB
+[2016.01.26-09.07.57:397][  0]LogMemory: Platform Memory Stats for Windows
+[2016.01.26-09.07.57:397][  0]LogMemory: Process Physical Memory: 45.18 MB used, 45.18 MB peak
+[2016.01.26-09.07.57:397][  0]LogMemory: Process Virtual Memory: 25.34 MB used, 25.34 MB peak
+[2016.01.26-09.07.57:397][  0]LogMemory: Physical Memory: 5442.93 MB used, 32720.31 MB total
+[2016.01.26-09.07.57:397][  0]LogMemory: Virtual Memory: 287.38 MB used, 8388608.00 MB total
+[2016.01.26-09.07.57:407][  0]LogD3D11RHI: Found D3D11 adapter 0: AMD Radeon (TM) R9 Fury Series (Feature Level 11_0)
+[2016.01.26-09.07.57:407][  0]LogD3D11RHI: Adapter has 4070MB of dedicated video memory, 0MB of dedicated system memory, and 3840MB of shared system memory, 1 output[s]
+[2016.01.26-09.07.57:407][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.01.26-09.07.57:407][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2016.01.26-09.07.57:407][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.01.26-09.07.57:410][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.01.26-09.07.57:413][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2016.01.26-09.07.57:455][  0]LogTextLocalizationManager: The requested culture ('es_ES') has no localization data; parent culture's ('es') localization data will be used.
+[2016.01.26-09.07.57:481][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Resource: (C:/UnrealEngine-4.7/Engine/Content/Localization/Editor/es/Editor.locres) Hash: (-630476809) String: (Importar a {0}...)
+Resource: (C:/UnrealEngine-4.7/Engine/Content/Localization/Editor/es/Editor.locres) Hash: (1271782899) String: (Importa un activo desde el archivo a esta carpeta.)
+[2016.01.26-09.07.57:516][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.01.26-09.07.58:903][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.01.26-09.07.59:202][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.01.26-09.07.59:235][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.01.26-09.07.59:259][  0]LogDerivedDataCache: Loaded boot cache 0.02s 39MB ../../../../Users/XperienciaRender/Documents/Unreal Projects/TAG_HEUER/DerivedDataCache/Boot.ddc.
+[2016.01.26-09.07.59:259][  0]LogDerivedDataCache:Display: Loaded Boot cache: ../../../../Users/XperienciaRender/Documents/Unreal Projects/TAG_HEUER/DerivedDataCache/Boot.ddc
+[2016.01.26-09.07.59:259][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../Users/XperienciaRender/Documents/Unreal Projects/TAG_HEUER/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.01.26-09.07.59:259][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.01.26-09.07.59:259][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnginePak pak cache file ../../../Engine/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.01.26-09.07.59:259][  0]LogDerivedDataCache: Unable to find inner node EnginePak for hierarchical cache Hierarchy.
+[2016.01.26-09.07.59:271][  0]LogDerivedDataCache: Using Local data cache path ../../../Engine/DerivedDataCache: Writable
+[2016.01.26-09.07.59:271][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2016.01.26-09.07.59:271][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2016.01.26-09.07.59:441][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.01.26-09.07.59:441][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.01.26-09.07.59:681][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.01.26-09.07.59:718][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2016.01.26-09.08.00:148][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.01.26-09.08.00:316][  0]SourceControl: Información El control de código fuente está desactivado
+[2016.01.26-09.08.00:316][  0]SourceControl: Información El control de código fuente está desactivado
+[2016.01.26-09.08.00:316][  0]SourceControl: Información El control de código fuente está desactivado
+[2016.01.26-09.08.00:316][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2016.01.26-09.08.00:317][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2016.01.26-09.08.00:321][  0]SourceControl: Información El control de código fuente está desactivado
+[2016.01.26-09.08.00:408][  0]LogObj: 24234 objects as part of root set at end of initial load.
+[2016.01.26-09.08.00:408][  0]LogUObjectAllocator: 5137560 out of 0 bytes used by permanent object pool.
+[2016.01.26-09.08.00:460][  0]LogEngine: Initializing Engine...
+[2016.01.26-09.08.02:574][  0]LogInit: XAudio2 using 'Audio digital (HDMI) (2- Dispositivo de High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.01.26-09.08.02:581][  0]LogInit: FAudioDevice initialized.
+[2016.01.26-09.08.02:600][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.01.26-09.08.02:613][  0]LogDerivedDataCache: Saved boot cache 0.01s 39MB ../../../../Users/XperienciaRender/Documents/Unreal Projects/TAG_HEUER/DerivedDataCache/Boot.ddc.
+[2016.01.26-09.08.02:615][  0]LogInit: Texture streaming: Enabled
+[2016.01.26-09.08.02:667][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.01.26-09.08.02:667][  0]LogAnalytics: ET APIKey = UnrealEngine.Release. APIServer = http://etsource.epicgames.com/ET2/. AppVersion = 4.7.6-0+++depot+UE4-Releases+4.7
+[2016.01.26-09.08.02:667][  0]LogAnalytics: SetUserId d6168901472bba0ffb3e81af04f59a83|993bd6500af24810ad7ff9f04b6bd5ef|bb511fb2-8347-4713-aceb-f87baa5cc237
+[2016.01.26-09.08.02:667][  0]LogAnalytics: AnalyticsET::StartSession [UnrealEngine.Release]
+[2016.01.26-09.08.02:680][  0]LogInit: Transaction tracking system initialized
+[2016.01.26-09.08.02:764][  0]BlueprintLog: New page: Cargar el editor
+[2016.01.26-09.08.02:787][  0]LogAssetRegistry: FAssetRegistry took 0.0103 seconds to start up
+[2016.01.26-09.08.02:787][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2016.01.26-09.08.03:146][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.01.26-09.08.03:429][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.01.26-09.08.03:581][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Regular.ttf'
+[2016.01.26-09.08.03:582][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Bold.ttf'
+[2016.01.26-09.08.03:585][  0]LogConsoleResponse:Display: 
+[2016.01.26-09.08.03:675][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.01.26-09.08.03:755][  0]SourceControl: Información El control de código fuente está desactivado
+[2016.01.26-09.08.03:755][  0]Cmd: MAP LOAD FILE="../../../../Users/XperienciaRender/Documents/Unreal Projects/TAG_HEUER/Content/Maps/TAG.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.01.26-09.08.03:755][  0]LightingResults: New page: Diseñar la iluminación
+[2016.01.26-09.08.03:761][  0]MapCheck: New page: Revisión del mapa
+[2016.01.26-09.08.03:761][  0]LightingResults: New page: Diseñar la iluminación
+[2016.01.26-09.08.03:768][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000437FBCE200
+[2016.01.26-09.08.04:444][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.01.26-09.08.04:481][  0]LogAIModule: Creating AISystem for world TAG
+[2016.01.26-09.08.04:482][  0]Cmd: MAP CHECKDEP
+[2016.01.26-09.08.04:482][  0]MapCheck: New page: TAG - 26/1/2016 11:08:04
+[2016.01.26-09.08.04:527][  0]MapCheck: Información Map check complete: 0 Error(s), 0 Warning(s), took 45,213ms to complete.
+[2016.01.26-09.08.04:527][  0]LogFileHelpers: Loading map 'TAG' took 0.772
+[2016.01.26-09.08.04:624][  0]LogCollectionManager: Loaded 0 collections in 0.000886 seconds
+[2016.01.26-09.08.04:631][  0]LogContentBrowser: Native class hierarchy populated in 0.0069 seconds. Added 1696 classes and 262 folders.
+[2016.01.26-09.08.04:641][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
+[2016.01.26-09.08.04:649][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0012 seconds. Added 1 classes and 2 folders.
+[2016.01.26-09.08.04:692][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.01.26-09.08.04:693][  0]LogSlate:Warning: Failed to load font data from 'Veranda'
+[2016.01.26-09.08.04:697][  0]LogUObjectGlobals:Warning: Error al encontrar el objeto 'Class Ninguno.'
+[2016.01.26-09.08.04:721][  0]LogLoad: Full Startup: 8.84 seconds (BP compile: 0.07 seconds)
+[2016.01.26-09.08.04:820][  0]LogRenderer:Warning: Reallocating scene render targets to support 32x32 (Frame:2).
+[2016.01.26-09.08.04:903][  0]LogRenderer:Warning: Reallocating scene render targets to support 1208x576 (Frame:3).
+[2016.01.26-09.08.05:153][  2]LogAssetRegistry: Asset discovery search completed in 2.3775 seconds
+[2016.01.26-09.08.05:352][ 24]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.01.26-09.09.04:288][655]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Reloj_01)
+[2016.01.26-09.09.05:270][769]Cmd: DELETE
+[2016.01.26-09.09.05:271][769]Cmd: ACTOR DELETE
+[2016.01.26-09.09.05:271][769]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.01.26-09.09.05:281][769]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2016.01.26-09.09.08:230][ 99]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
+[2016.01.26-09.09.15:332][865]LogMaterial: Missing cached shader map for material Belt, compiling. 
+[2016.01.26-09.09.15:351][865]LogMaterial: Missing cached shader map for material Black_In, compiling. 
+[2016.01.26-09.09.15:356][865]LogMaterial: Missing cached shader map for material Black_Matte, compiling. 
+[2016.01.26-09.09.15:362][865]LogMaterial: Missing cached shader map for material Glass, compiling. 
+[2016.01.26-09.09.15:367][865]LogMaterial: Missing cached shader map for material Gray_Metal, compiling. 
+[2016.01.26-09.09.15:375][865]LogMaterial: Missing cached shader map for material GrayIn, compiling. 
+[2016.01.26-09.09.15:383][865]LogMaterial: Missing cached shader map for material Red, compiling. 
+[2016.01.26-09.09.15:546][865]LogMaterial: Missing cached shader map for material WHite, compiling. 
+[2016.01.26-09.09.39:516][ 72]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/watch'
+[2016.01.26-09.09.42:914][430]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TAG" FILE="../../../../Users/XperienciaRender/Documents/Unreal Projects/TAG_HEUER/Content/Maps/TAG.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.01.26-09.09.42:958][430]LogSavePackage: Save=35.723217ms
+[2016.01.26-09.09.42:958][430]LogSavePackage: Moving '../../../../Users/XperienciaRender/Documents/Unreal Projects/TAG_HEUER/Saved/TAG42D1A4F5463701333E2C80B1D097C15E.tmp' to '../../../../Users/XperienciaRender/Documents/Unreal Projects/TAG_HEUER/Content/Maps/TAG.umap'
+[2016.01.26-09.09.42:975][430]LogFileHelpers: Saving map 'TAG' took 0.103
+[2016.01.26-09.09.42:990][430]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/watch/Belt" FILE="../../../../Users/XperienciaRender/Documents/Unreal Projects/TAG_HEUER/Content/watch/Belt.uasset" SILENT=true
+[2016.01.26-09.09.43:359][430]LogSavePackage: Save=368.718445ms
+[2016.01.26-09.09.43:359][430]LogSavePackage: Moving '../../../../Users/XperienciaRender/Documents/Unreal Projects/TAG_HEUER/Saved/Belt1953CC8443780D962A774C906AEF3C89.tmp' to '../../../../Users/XperienciaRender/Documents/Unreal Projects/TAG_HEUER/Content/watch/Belt.uasset'
+[2016.01.26-09.09.43:375][430]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/watch/Black_In" FILE="../../../../Users/XperienciaRender/Documents/Unreal Projects/TAG_HEUER/Content/watch/Black_In.uasset" SILENT=true
+[2016.01.26-09.09.43:680][430]LogSavePackage: Save=305.006683ms
+[2016.01.26-09.09.43:680][430]LogSavePackage: Moving '../../../../Users/XperienciaRender/Documents/Unreal Projects/TAG_HEUER/Saved/Black_InBB516F6C40A7FC351E9F9393A6052926.tmp' to '../../../../Users/XperienciaRender/Documents/Unreal Projects/TAG_HEUER/Content/watch/Black_In.uasset'
+[2016.01.26-09.09.43:696][430]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/watch/Black_Matte" FILE="../../../../Users/XperienciaRender/Documents/Unreal Projects/TAG_HEUER/Content/watch/Black_Matte.uasset" SILENT=true
+[2016.01.26-09.09.44:003][430]LogSavePackage: Save=306.586365ms
+[2016.01.26-09.09.44:003][430]LogSavePackage: Moving '../../../../Users/XperienciaRender/Documents/Unreal Projects/TAG_HEUER/Saved/Black_Matte0C4EE05948D6949395BDEBBA81968B95.tmp' to '../../../../Users/XperienciaRender/Documents/Unreal Projects/TAG_HEUER/Content/watch/Black_Matte.uasset'
+[2016.01.26-09.09.44:017][430]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/watch/Glass" FILE="../../../../Users/XperienciaRender/Documents/Unreal Projects/TAG_HEUER/Content/watch/Glass.uasset" SILENT=true
+[2016.01.26-09.09.44:367][430]LogSavePackage: Save=349.591034ms
+[2016.01.26-09.09.44:367][430]LogSavePackage: Moving '../../../../Users/XperienciaRender/Documents/Unreal Projects/TAG_HEUER/Saved/GlassA2F0CA3F450DD091DCC97AB2B7A1C071.tmp' to '../../../../Users/XperienciaRender/Documents/Unreal Projects/TAG_HEUER/Content/watch/Glass.uasset'
+[2016.01.26-09.09.44:383][430]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/watch/Gray_Metal" FILE="../../../../Users/XperienciaRender/Documents/Unreal Projects/TAG_HEUER/Content/watch/Gray_Metal.uasset" SILENT=true
+[2016.01.26-09.09.44:763][430]LogSavePackage: Save=378.904541ms
+[2016.01.26-09.09.44:763][430]LogSavePackage: Moving '../../../../Users/XperienciaRender/Documents/Unreal Projects/TAG_HEUER/Saved/Gray_Metal0252FC604EF856D0696E879AAEF15113.tmp' to '../../../../Users/XperienciaRender/Documents/Unreal Projects/TAG_HEUER/Content/watch/Gray_Metal.uasset'
+[2016.01.26-09.09.44:778][430]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/watch/GrayIn" FILE="../../../../Users/XperienciaRender/Documents/Unreal Projects/TAG_HEUER/Content/watch/GrayIn.uasset" SILENT=true
+[2016.01.26-09.09.45:151][430]LogSavePackage: Save=372.109039ms
+[2016.01.26-09.09.45:151][430]LogSavePackage: Moving '../../../../Users/XperienciaRender/Documents/Unreal Projects/TAG_HEUER/Saved/GrayIn527814DE4EE1E0300244B4891ADF55FA.tmp' to '../../../../Users/XperienciaRender/Documents/Unreal Projects/TAG_HEUER/Content/watch/GrayIn.uasset'
+[2016.01.26-09.09.45:166][430]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/watch/Red" FILE="../../../../Users/XperienciaRender/Documents/Unreal Projects/TAG_HEUER/Content/watch/Red.uasset" SILENT=true
+[2016.01.26-09.09.45:385][430]LogSavePackage: Save=218.473129ms
+[2016.01.26-09.09.45:385][430]LogSavePackage: Moving '../../../../Users/XperienciaRender/Documents/Unreal Projects/TAG_HEUER/Saved/RedF10F3B9F48B110A16D3014A0B9DD9459.tmp' to '../../../../Users/XperienciaRender/Documents/Unreal Projects/TAG_HEUER/Content/watch/Red.uasset'
+[2016.01.26-09.09.45:400][430]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/watch/Reloj_01" FILE="../../../../Users/XperienciaRender/Documents/Unreal Projects/TAG_HEUER/Content/watch/Reloj_01.uasset" SILENT=true
+[2016.01.26-09.09.45:657][430]LogSavePackage: Save=256.603821ms
+[2016.01.26-09.09.45:657][430]LogSavePackage: Moving '../../../../Users/XperienciaRender/Documents/Unreal Projects/TAG_HEUER/Saved/Reloj_0149700E2143CDE631861674A4EC2186DC.tmp' to '../../../../Users/XperienciaRender/Documents/Unreal Projects/TAG_HEUER/Content/watch/Reloj_01.uasset'
+[2016.01.26-09.09.45:672][430]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/watch/WHite" FILE="../../../../Users/XperienciaRender/Documents/Unreal Projects/TAG_HEUER/Content/watch/WHite.uasset" SILENT=true
+[2016.01.26-09.09.46:030][430]LogSavePackage: Save=357.470306ms
+[2016.01.26-09.09.46:030][430]LogSavePackage: Moving '../../../../Users/XperienciaRender/Documents/Unreal Projects/TAG_HEUER/Saved/WHite251A52A049E876C1634DDEBB75AAADE7.tmp' to '../../../../Users/XperienciaRender/Documents/Unreal Projects/TAG_HEUER/Content/watch/WHite.uasset'
+[2016.01.26-09.09.47:463][560]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
+[2016.01.26-09.09.49:756][702]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../Users/XperienciaRender/Downloads/Reloj_01/Reloj_01.FBX)
+[2016.01.26-09.09.49:764][702]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2016.01.26-09.09.49:764][702]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2016.01.26-09.09.49:764][702]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2016.01.26-09.09.49:764][702]LogFbx: ItemName: Model, ItemCount : 1
+[2016.01.26-09.09.49:764][702]LogFbx: ItemName: Material, ItemCount : 8
+[2016.01.26-09.09.49:764][702]LogFbx: ItemName: Geometry, ItemCount : 1
+[2016.01.26-09.10.06:069][702]LogFbx: Loading FBX Scene from ../../../../Users/XperienciaRender/Downloads/Reloj_01/Reloj_01.FBX
+[2016.01.26-09.10.06:285][702]LogFbx: FBX Scene Loaded Succesfully
+[2016.01.26-09.10.06:288][702]LogFbx: =================================================
+[2016.01.26-09.10.06:288][702]LogFbx: Dumping Node START [SM_Reloj] 
+[2016.01.26-09.10.06:288][702]LogFbx: 	Total Deformer Count 126782560.
+[2016.01.26-09.10.06:288][702]LogFbx: 	Attribute () Type (4).
+[2016.01.26-09.10.06:288][702]LogFbx: 		[Node Attribute Child 1] SM_Reloj (Type Mesh).
+[2016.01.26-09.10.06:288][702]LogFbx: Dumping Node END [SM_Reloj]
+[2016.01.26-09.10.06:288][702]LogFbx: =================================================
+[2016.01.26-09.10.06:288][702]LogFbx: Dumping Node START [SM_Reloj] 
+[2016.01.26-09.10.06:288][702]LogFbx: 	Total Deformer Count 126781048.
+[2016.01.26-09.10.06:288][702]LogFbx: 	Attribute () Type (4).
+[2016.01.26-09.10.06:288][702]LogFbx: 		[Node Attribute Child 1] SM_Reloj (Type Mesh).
+[2016.01.26-09.10.06:288][702]LogFbx: Dumping Node END [SM_Reloj]
+[2016.01.26-09.10.06:303][702]LogLinker:Warning: No puede encontrar el archivo '/Game/WHite'
+[2016.01.26-09.10.06:303][702]LogLinker:Warning: No puede encontrar el archivo '/Game/WHite'
+[2016.01.26-09.10.06:303][702]LogUObjectGlobals:Warning: Error al encontrar el objeto 'MaterialInterface /Game/WHite.WHite'
+[2016.01.26-09.10.06:305][702]LogMaterial: Missing cached shader map for material WHite, compiling. 
+[2016.01.26-09.10.06:309][702]LogLinker:Warning: No puede encontrar el archivo '/Game/Gray_Metal'
+[2016.01.26-09.10.06:309][702]LogLinker:Warning: No puede encontrar el archivo '/Game/Gray_Metal'
+[2016.01.26-09.10.06:309][702]LogUObjectGlobals:Warning: Error al encontrar el objeto 'MaterialInterface /Game/Gray_Metal.Gray_Metal'
+[2016.01.26-09.10.06:311][702]LogMaterial: Missing cached shader map for material Gray_Metal, compiling. 
+[2016.01.26-09.10.06:315][702]LogLinker:Warning: No puede encontrar el archivo '/Game/Black_Matte'
+[2016.01.26-09.10.06:315][702]LogLinker:Warning: No puede encontrar el archivo '/Game/Black_Matte'
+[2016.01.26-09.10.06:315][702]LogUObjectGlobals:Warning: Error al encontrar el objeto 'MaterialInterface /Game/Black_Matte.Black_Matte'
+[2016.01.26-09.10.06:317][702]LogMaterial: Missing cached shader map for material Black_Matte, compiling. 
+[2016.01.26-09.10.06:323][702]LogLinker:Warning: No puede encontrar el archivo '/Game/Belt'
+[2016.01.26-09.10.06:323][702]LogLinker:Warning: No puede encontrar el archivo '/Game/Belt'
+[2016.01.26-09.10.06:324][702]LogUObjectGlobals:Warning: Error al encontrar el objeto 'MaterialInterface /Game/Belt.Belt'
+[2016.01.26-09.10.06:325][702]LogMaterial: Missing cached shader map for material Belt, compiling. 
+[2016.01.26-09.10.06:330][702]LogLinker:Warning: No puede encontrar el archivo '/Game/Black_In'
+[2016.01.26-09.10.06:330][702]LogLinker:Warning: No puede encontrar el archivo '/Game/Black_In'
+[2016.01.26-09.10.06:330][702]LogUObjectGlobals:Warning: Error al encontrar el objeto 'MaterialInterface /Game/Black_In.Black_In'
+[2016.01.26-09.10.06:332][702]LogMaterial: Missing cached shader map for material Black_In, compiling. 
+[2016.01.26-09.10.06:337][702]LogLinker:Warning: No puede encontrar el archivo '/Game/Glass'
+[2016.01.26-09.10.06:337][702]LogLinker:Warning: No puede encontrar el archivo '/Game/Glass'
+[2016.01.26-09.10.06:337][702]LogUObjectGlobals:Warning: Error al encontrar el objeto 'MaterialInterface /Game/Glass.Glass'
+[2016.01.26-09.10.06:338][702]LogMaterial: Missing cached shader map for material Glass, compiling. 
+[2016.01.26-09.10.06:343][702]LogLinker:Warning: No puede encontrar el archivo '/Game/GrayIn'
+[2016.01.26-09.10.06:343][702]LogLinker:Warning: No puede encontrar el archivo '/Game/GrayIn'
+[2016.01.26-09.10.06:343][702]LogUObjectGlobals:Warning: Error al encontrar el objeto 'MaterialInterface /Game/GrayIn.GrayIn'
+[2016.01.26-09.10.06:345][702]LogMaterial: Missing cached shader map for material GrayIn, compiling. 
+[2016.01.26-09.10.06:349][702]LogLinker:Warning: No puede encontrar el archivo '/Game/Red'
+[2016.01.26-09.10.06:349][702]LogLinker:Warning: No puede encontrar el archivo '/Game/Red'
+[2016.01.26-09.10.06:349][702]LogUObjectGlobals:Warning: Error al encontrar el objeto 'MaterialInterface /Game/Red.Red'
+[2016.01.26-09.10.06:350][702]LogMaterial: Missing cached shader map for material Red, compiling. 
+[2016.01.26-09.10.21:200][702]LogFbx:Warning: Bones digested - 1  Depth of hierarchy - 1
+[2016.01.26-09.10.38:401][702]LogSkeletalMesh: Chunk 0: 166921 rigid vertices, 0 soft vertices, 1 active bones
+[2016.01.26-09.10.38:402][702]LogSkeletalMesh: Chunk 1: 48451 rigid vertices, 0 soft vertices, 1 active bones
+[2016.01.26-09.10.38:405][702]LogSkeletalMesh: Chunk 2: 66259 rigid vertices, 0 soft vertices, 1 active bones
+[2016.01.26-09.10.38:419][702]LogSkeletalMesh: Chunk 3: 193697 rigid vertices, 0 soft vertices, 1 active bones
+[2016.01.26-09.10.38:419][702]LogSkeletalMesh: Chunk 4: 14385 rigid vertices, 0 soft vertices, 1 active bones
+[2016.01.26-09.10.38:419][702]LogSkeletalMesh: Chunk 5: 286 rigid vertices, 0 soft vertices, 1 active bones
+[2016.01.26-09.10.38:420][702]LogSkeletalMesh: Chunk 6: 7310 rigid vertices, 0 soft vertices, 1 active bones
+[2016.01.26-09.10.38:421][702]LogSkeletalMesh: Chunk 7: 15622 rigid vertices, 0 soft vertices, 1 active bones
+[2016.01.26-09.10.47:637][702]LogSkeletalMesh: Section 0: Material=0, Chunk=0, 123525 triangles
+[2016.01.26-09.10.47:637][702]LogSkeletalMesh: Section 1: Material=1, Chunk=1, 26786 triangles
+[2016.01.26-09.10.47:637][702]LogSkeletalMesh: Section 2: Material=2, Chunk=2, 50877 triangles
+[2016.01.26-09.10.47:637][702]LogSkeletalMesh: Section 3: Material=3, Chunk=3, 71915 triangles
+[2016.01.26-09.10.47:637][702]LogSkeletalMesh: Section 4: Material=4, Chunk=4, 10362 triangles
+[2016.01.26-09.10.47:637][702]LogSkeletalMesh: Section 5: Material=5, Chunk=5, 355 triangles
+[2016.01.26-09.10.47:637][702]LogSkeletalMesh: Section 6: Material=6, Chunk=6, 3996 triangles
+[2016.01.26-09.10.47:637][702]LogSkeletalMesh: Section 7: Material=7, Chunk=7, 8868 triangles
+[2016.01.26-09.10.47:710][702]LogLinker:Warning: No puede encontrar el archivo '/Game/Reloj_01_PhysicsAsset'
+[2016.01.26-09.10.47:710][702]LogUObjectGlobals:Warning: Error al encontrar el objeto 'Object /Game/Reloj_01_PhysicsAsset.Reloj_01_PhysicsAsset'
+[2016.01.26-09.10.47:750][702]LogLinker:Warning: No puede encontrar el archivo '/Game/Reloj_01_Skeleton'
+[2016.01.26-09.10.47:750][702]LogUObjectGlobals:Warning: Error al encontrar el objeto 'Object /Game/Reloj_01_Skeleton.Reloj_01_Skeleton'
+[2016.01.26-09.10.47:775][702]FBXImport:Warning: Aviso No pudo encontrar la posición de enlace. Utilizará el tiempo 0 como posición de enlace. 
+[2016.01.26-09.10.47:815][702]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2016.01.26-09.10.47:815][702]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
+[2016.01.26-09.10.47:853][702]LogMaterial:Warning: Material /Game/WHite.WHite needed to have new flag set bUsedWithSkeletalMesh !
+[2016.01.26-09.10.47:854][702]LogMaterial: Missing cached shader map for material WHite, compiling. 
+[2016.01.26-09.10.47:864][702]LogMaterial: 0.000173 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.26-09.10.47:864][702]LogMaterial:Warning: Material /Game/Gray_Metal.Gray_Metal needed to have new flag set bUsedWithSkeletalMesh !
+[2016.01.26-09.10.47:865][702]LogMaterial: Missing cached shader map for material Gray_Metal, compiling. 
+[2016.01.26-09.10.47:875][702]LogMaterial: 0.000114 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.26-09.10.47:875][702]LogMaterial:Warning: Material /Game/Black_Matte.Black_Matte needed to have new flag set bUsedWithSkeletalMesh !
+[2016.01.26-09.10.47:876][702]LogMaterial: Missing cached shader map for material Black_Matte, compiling. 
+[2016.01.26-09.10.47:887][702]LogMaterial: 0.000107 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.26-09.10.47:887][702]LogMaterial:Warning: Material /Game/Belt.Belt needed to have new flag set bUsedWithSkeletalMesh !
+[2016.01.26-09.10.47:888][702]LogMaterial: Missing cached shader map for material Belt, compiling. 
+[2016.01.26-09.10.47:898][702]LogMaterial: 0.000060 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.26-09.10.47:898][702]LogMaterial:Warning: Material /Game/Black_In.Black_In needed to have new flag set bUsedWithSkeletalMesh !
+[2016.01.26-09.10.47:899][702]LogMaterial: Missing cached shader map for material Black_In, compiling. 
+[2016.01.26-09.10.47:914][702]LogMaterial: 0.000092 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.26-09.10.47:914][702]LogMaterial:Warning: Material /Game/Glass.Glass needed to have new flag set bUsedWithSkeletalMesh !
+[2016.01.26-09.10.47:914][702]LogMaterial: Missing cached shader map for material Glass, compiling. 
+[2016.01.26-09.10.47:924][702]LogMaterial: 0.000135 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.26-09.10.47:924][702]LogMaterial:Warning: Material /Game/GrayIn.GrayIn needed to have new flag set bUsedWithSkeletalMesh !
+[2016.01.26-09.10.47:925][702]LogMaterial: Missing cached shader map for material GrayIn, compiling. 
+[2016.01.26-09.10.47:934][702]LogMaterial: 0.000141 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.26-09.10.47:934][702]LogMaterial:Warning: Material /Game/Red.Red needed to have new flag set bUsedWithSkeletalMesh !
+[2016.01.26-09.10.47:935][702]LogMaterial: Missing cached shader map for material Red, compiling. 
+[2016.01.26-09.10.47:946][702]LogMaterial: 0.000064 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.26-09.11.11:531][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TAG" FILE="../../../../Users/XperienciaRender/Documents/Unreal Projects/TAG_HEUER/Content/Maps/TAG.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.01.26-09.11.11:597][404]LogSavePackage: Save=58.058056ms
+[2016.01.26-09.11.11:597][404]LogSavePackage: Moving '../../../../Users/XperienciaRender/Documents/Unreal Projects/TAG_HEUER/Saved/TAG286FFE854DD26BC962C50CBAA4EFE26E.tmp' to '../../../../Users/XperienciaRender/Documents/Unreal Projects/TAG_HEUER/Content/Maps/TAG.umap'
+[2016.01.26-09.11.11:613][404]LogFileHelpers: Saving map 'TAG' took 0.127
+[2016.01.26-09.11.11:626][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Red" FILE="../../../../Users/XperienciaRender/Documents/Unreal Projects/TAG_HEUER/Content/Red.uasset" SILENT=true
+[2016.01.26-09.11.11:826][404]LogSavePackage: Save=199.027603ms
+[2016.01.26-09.11.11:826][404]LogSavePackage: Moving '../../../../Users/XperienciaRender/Documents/Unreal Projects/TAG_HEUER/Saved/RedA5971F42462BE64D4C8BD38F32ADB19C.tmp' to '../../../../Users/XperienciaRender/Documents/Unreal Projects/TAG_HEUER/Content/Red.uasset'
+[2016.01.26-09.11.11:840][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GrayIn" FILE="../../../../Users/XperienciaRender/Documents/Unreal Projects/TAG_HEUER/Content/GrayIn.uasset" SILENT=true
+[2016.01.26-09.11.12:190][404]LogSavePackage: Save=350.003632ms
+[2016.01.26-09.11.12:190][404]LogSavePackage: Moving '../../../../Users/XperienciaRender/Documents/Unreal Projects/TAG_HEUER/Saved/GrayInEE4402094FD31D8660F49CA3317BEEEA.tmp' to '../../../../Users/XperienciaRender/Documents/Unreal Projects/TAG_HEUER/Content/GrayIn.uasset'
+[2016.01.26-09.11.12:205][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Glass" FILE="../../../../Users/XperienciaRender/Documents/Unreal Projects/TAG_HEUER/Content/Glass.uasset" SILENT=true
+[2016.01.26-09.11.12:536][404]LogSavePackage: Save=331.681244ms
+[2016.01.26-09.11.12:536][404]LogSavePackage: Moving '../../../../Users/XperienciaRender/Documents/Unreal Projects/TAG_HEUER/Saved/Glass0F53A539411736E77373B1ABDE1E7E93.tmp' to '../../../../Users/XperienciaRender/Documents/Unreal Projects/TAG_HEUER/Content/Glass.uasset'
+[2016.01.26-09.11.12:549][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Black_In" FILE="../../../../Users/XperienciaRender/Documents/Unreal Projects/TAG_HEUER/Content/Black_In.uasset" SILENT=true
+[2016.01.26-09.11.12:830][404]LogSavePackage: Save=280.039551ms
+[2016.01.26-09.11.12:830][404]LogSavePackage: Moving '../../../../Users/XperienciaRender/Documents/Unreal Projects/TAG_HEUER/Saved/Black_In9DAF79AE4ADDB50D883DEB93E805189A.tmp' to '../../../../Users/XperienciaRender/Documents/Unreal Projects/TAG_HEUER/Content/Black_In.uasset'
+[2016.01.26-09.11.12:844][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Belt" FILE="../../../../Users/XperienciaRender/Documents/Unreal Projects/TAG_HEUER/Content/Belt.uasset" SILENT=true
+[2016.01.26-09.11.13:220][404]LogSavePackage: Save=375.592133ms
+[2016.01.26-09.11.13:220][404]LogSavePackage: Moving '../../../../Users/XperienciaRender/Documents/Unreal Projects/TAG_HEUER/Saved/BeltC7527A064FD87F9500EDC991CB023DAC.tmp' to '../../../../Users/XperienciaRender/Documents/Unreal Projects/TAG_HEUER/Content/Belt.uasset'
+[2016.01.26-09.11.13:234][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Black_Matte" FILE="../../../../Users/XperienciaRender/Documents/Unreal Projects/TAG_HEUER/Content/Black_Matte.uasset" SILENT=true
+[2016.01.26-09.11.13:514][404]LogSavePackage: Save=278.658386ms
+[2016.01.26-09.11.13:514][404]LogSavePackage: Moving '../../../../Users/XperienciaRender/Documents/Unreal Projects/TAG_HEUER/Saved/Black_Matte62BFAB974840967DA3F1E29E1FB4755D.tmp' to '../../../../Users/XperienciaRender/Documents/Unreal Projects/TAG_HEUER/Content/Black_Matte.uasset'
+[2016.01.26-09.11.13:527][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Gray_Metal" FILE="../../../../Users/XperienciaRender/Documents/Unreal Projects/TAG_HEUER/Content/Gray_Metal.uasset" SILENT=true
+[2016.01.26-09.11.13:880][404]LogSavePackage: Save=351.867950ms
+[2016.01.26-09.11.13:880][404]LogSavePackage: Moving '../../../../Users/XperienciaRender/Documents/Unreal Projects/TAG_HEUER/Saved/Gray_MetalA0542EF54D724BACA2D489A466DCE85A.tmp' to '../../../../Users/XperienciaRender/Documents/Unreal Projects/TAG_HEUER/Content/Gray_Metal.uasset'
+[2016.01.26-09.11.13:893][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/WHite" FILE="../../../../Users/XperienciaRender/Documents/Unreal Projects/TAG_HEUER/Content/WHite.uasset" SILENT=true
+[2016.01.26-09.11.14:231][404]LogSavePackage: Save=336.678864ms
+[2016.01.26-09.11.14:231][404]LogSavePackage: Moving '../../../../Users/XperienciaRender/Documents/Unreal Projects/TAG_HEUER/Saved/WHiteD926B02541A0C9BCB99B6086BCA3274A.tmp' to '../../../../Users/XperienciaRender/Documents/Unreal Projects/TAG_HEUER/Content/WHite.uasset'
+[2016.01.26-09.11.14:245][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Reloj_01" FILE="../../../../Users/XperienciaRender/Documents/Unreal Projects/TAG_HEUER/Content/Reloj_01.uasset" SILENT=true
+[2016.01.26-09.11.15:034][404]LogSavePackage: Save=788.012207ms
+[2016.01.26-09.11.15:034][404]LogSavePackage: Moving '../../../../Users/XperienciaRender/Documents/Unreal Projects/TAG_HEUER/Saved/Reloj_01D799D68B4A16E47808D53EBD9212791A.tmp' to '../../../../Users/XperienciaRender/Documents/Unreal Projects/TAG_HEUER/Content/Reloj_01.uasset'
+[2016.01.26-09.11.15:071][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Reloj_01_PhysicsAsset" FILE="../../../../Users/XperienciaRender/Documents/Unreal Projects/TAG_HEUER/Content/Reloj_01_PhysicsAsset.uasset" SILENT=true
+[2016.01.26-09.11.15:073][404]LogSavePackage: Save=1.188279ms
+[2016.01.26-09.11.15:073][404]LogSavePackage: Moving '../../../../Users/XperienciaRender/Documents/Unreal Projects/TAG_HEUER/Saved/Reloj_01_PhysicsAsset40007C7244DD39D7F6F645B712BE4ECB.tmp' to '../../../../Users/XperienciaRender/Documents/Unreal Projects/TAG_HEUER/Content/Reloj_01_PhysicsAsset.uasset'
+[2016.01.26-09.11.15:077][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Reloj_01_Skeleton" FILE="../../../../Users/XperienciaRender/Documents/Unreal Projects/TAG_HEUER/Content/Reloj_01_Skeleton.uasset" SILENT=true
+[2016.01.26-09.11.15:079][404]LogSavePackage: Save=0.806067ms
+[2016.01.26-09.11.15:079][404]LogSavePackage: Moving '../../../../Users/XperienciaRender/Documents/Unreal Projects/TAG_HEUER/Saved/Reloj_01_Skeleton17B06C7B41BFF8E1A03007B127B997A5.tmp' to '../../../../Users/XperienciaRender/Documents/Unreal Projects/TAG_HEUER/Content/Reloj_01_Skeleton.uasset'
+[2016.01.26-09.12.11:295][115]MapCheck: New page: Revisión del mapa
+[2016.01.26-09.12.11:318][115]Cmd: MAP REBUILD ALLVISIBLE
+[2016.01.26-09.12.11:318][115]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2016.01.26-09.12.11:387][115]LightingResults: New page: Diseño de la iluminación - 26/1/2016 11:12:11
+[2016.01.26-09.12.14:342][115]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2016.01.26-09.12.14:342][115]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2016.01.26-09.12.14:342][115]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2016.01.26-09.12.14:342][115]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2016.01.26-09.12.14:342][115]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2016.01.26-09.12.14:342][115]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2016.01.26-09.12.14:468][115]LogEditorBuildUtils: Build time 0:00:03
+[2016.01.26-09.12.15:267][166]Job is a success!
+[2016.01.26-09.12.15:350][168]LogTexture:Display: Generando texturas: HQ_Lightmap0_1 (AutoDXT)
+[2016.01.26-09.12.15:352][168]LogTexture:Display: Generando texturas: LQ_Lightmap_1_2 (DXT1)
+[2016.01.26-09.12.15:353][168]LogTexture:Display: Generando texturas: HQ_Lightmap1_2 (AutoDXT)
+[2016.01.26-09.12.15:353][168]LogTexture:Display: Generando texturas: LQ_Lightmap_0_1 (DXT1)
+[2016.01.26-09.12.15:360][168]LogTexture:Display: Generando texturas: ShadowMapTexture2D_0 (BGRA8)
+[2016.01.26-09.12.15:361][168]LogTexture:Display: Generando texturas: ShadowMapTexture2D_3 (BGRA8)
+[2016.01.26-09.12.15:396][168]Lightmass on XVIRTUALRENDER: 628 ms total, 71 ms importing, 0 ms setup, 276 ms photons, 250 ms processing, 0 ms extra exporting [2/2 mappings]. Threads: 1.58 sec total, 154 ms processing.
+[2016.01.26-09.12.15:408][168]LogStaticLightingSystem: Illumination: 4.00 sec (14 ms encoding lightmaps)
+[2016.01.26-09.12.15:408][168]LogStaticLightingSystem: Lightmap texture memory:  0.1 MB (0.1 MB streaming, 0.0 MB non-streaming), 4 textures
+[2016.01.26-09.12.15:408][168]LogStaticLightingSystem: Shadowmap texture memory: 0.2 MB (0.2 MB streaming, 0.0 MB non-streaming), 2 textures
+[2016.01.26-09.12.16:391][169]Cmd: MAP CHECK NOTIFYRESULTS
+[2016.01.26-09.12.16:391][169]MapCheck: New page: TAG - 26/1/2016 11:12:16
+[2016.01.26-09.12.16:470][169]MapCheck: Información Map check complete: 0 Error(s), 0 Warning(s), took 79,623ms to complete.
+[2016.01.26-09.12.39:648][922]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TAG" FILE="../../../../Users/XperienciaRender/Documents/Unreal Projects/TAG_HEUER/Content/Maps/TAG.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.01.26-09.12.39:716][922]LogSavePackage: Save=59.877903ms
+[2016.01.26-09.12.39:716][922]LogSavePackage: Moving '../../../../Users/XperienciaRender/Documents/Unreal Projects/TAG_HEUER/Saved/TAGB15E96F241F579643FE8B0A100F67E9E.tmp' to '../../../../Users/XperienciaRender/Documents/Unreal Projects/TAG_HEUER/Content/Maps/TAG.umap'
+[2016.01.26-09.12.39:732][922]LogFileHelpers: Saving map 'TAG' took 0.130
+[2016.01.26-09.12.59:446][945]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2016.01.26-09.12.59:522][946]LogRenderer:Warning: Reallocating scene render targets to support 1208x880 (Frame:20602).
+[2016.01.26-09.13.50:196][423]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Reloj_01" FILE="../../../../Users/XperienciaRender/Documents/Unreal Projects/TAG_HEUER/Content/Reloj_01.uasset" SILENT=true
+[2016.01.26-09.13.50:900][423]LogSavePackage: Save=680.232422ms
+[2016.01.26-09.13.50:900][423]LogSavePackage: Moving '../../../../Users/XperienciaRender/Documents/Unreal Projects/TAG_HEUER/Saved/Reloj_01CDA9970B46AB534CC917D38EBB784BA2.tmp' to '../../../../Users/XperienciaRender/Documents/Unreal Projects/TAG_HEUER/Content/Reloj_01.uasset'
+[2016.01.26-09.14.00:126][239]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/watch'
+[2016.01.26-09.14.08:635][859]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Maps'
+[2016.01.26-09.14.09:602][975]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
+[2016.01.26-09.14.14:812][400]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/watch/Belt" FILE="../../../../Users/XperienciaRender/Documents/Unreal Projects/TAG_HEUER/Content/watch/Belt.uasset" SILENT=true
+[2016.01.26-09.14.15:165][400]LogSavePackage: Save=352.491089ms
+[2016.01.26-09.14.15:165][400]LogSavePackage: Moving '../../../../Users/XperienciaRender/Documents/Unreal Projects/TAG_HEUER/Saved/Belt02643E644C86F8278D2CB39EF8A30BEE.tmp' to '../../../../Users/XperienciaRender/Documents/Unreal Projects/TAG_HEUER/Content/watch/Belt.uasset'
+[2016.01.26-09.14.15:179][400]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/watch/Black_In" FILE="../../../../Users/XperienciaRender/Documents/Unreal Projects/TAG_HEUER/Content/watch/Black_In.uasset" SILENT=true
+[2016.01.26-09.14.15:462][400]LogSavePackage: Save=282.229614ms
+[2016.01.26-09.14.15:462][400]LogSavePackage: Moving '../../../../Users/XperienciaRender/Documents/Unreal Projects/TAG_HEUER/Saved/Black_In0FF1920F470CF44E5E0CDB94751599CE.tmp' to '../../../../Users/XperienciaRender/Documents/Unreal Projects/TAG_HEUER/Content/watch/Black_In.uasset'
+[2016.01.26-09.14.15:476][400]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/watch/Black_Matte" FILE="../../../../Users/XperienciaRender/Documents/Unreal Projects/TAG_HEUER/Content/watch/Black_Matte.uasset" SILENT=true
+[2016.01.26-09.14.15:754][400]LogSavePackage: Save=277.477509ms
+[2016.01.26-09.14.15:754][400]LogSavePackage: Moving '../../../../Users/XperienciaRender/Documents/Unreal Projects/TAG_HEUER/Saved/Black_Matte449A1BF748091D221846FCA20F41058D.tmp' to '../../../../Users/XperienciaRender/Documents/Unreal Projects/TAG_HEUER/Content/watch/Black_Matte.uasset'
+[2016.01.26-09.14.15:769][400]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/watch/Glass" FILE="../../../../Users/XperienciaRender/Documents/Unreal Projects/TAG_HEUER/Content/watch/Glass.uasset" SILENT=true
+[2016.01.26-09.14.16:105][400]LogSavePackage: Save=335.568024ms
+[2016.01.26-09.14.16:105][400]LogSavePackage: Moving '../../../../Users/XperienciaRender/Documents/Unreal Projects/TAG_HEUER/Saved/GlassF682165F4109B33DFD0FD2A1E48F0662.tmp' to '../../../../Users/XperienciaRender/Documents/Unreal Projects/TAG_HEUER/Content/watch/Glass.uasset'
+[2016.01.26-09.14.16:119][400]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/watch/Gray_Metal" FILE="../../../../Users/XperienciaRender/Documents/Unreal Projects/TAG_HEUER/Content/watch/Gray_Metal.uasset" SILENT=true
+[2016.01.26-09.14.16:468][400]LogSavePackage: Save=348.829926ms
+[2016.01.26-09.14.16:468][400]LogSavePackage: Moving '../../../../Users/XperienciaRender/Documents/Unreal Projects/TAG_HEUER/Saved/Gray_MetalC41C3CC74FC4D553FD83EEB054A72E26.tmp' to '../../../../Users/XperienciaRender/Documents/Unreal Projects/TAG_HEUER/Content/watch/Gray_Metal.uasset'
+[2016.01.26-09.14.16:482][400]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/watch/GrayIn" FILE="../../../../Users/XperienciaRender/Documents/Unreal Projects/TAG_HEUER/Content/watch/GrayIn.uasset" SILENT=true
+[2016.01.26-09.14.16:829][400]LogSavePackage: Save=346.004211ms
+[2016.01.26-09.14.16:829][400]LogSavePackage: Moving '../../../../Users/XperienciaRender/Documents/Unreal Projects/TAG_HEUER/Saved/GrayInD4B5F45A4DE8D73E634565986F543547.tmp' to '../../../../Users/XperienciaRender/Documents/Unreal Projects/TAG_HEUER/Content/watch/GrayIn.uasset'
+[2016.01.26-09.14.16:842][400]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/watch/Red" FILE="../../../../Users/XperienciaRender/Documents/Unreal Projects/TAG_HEUER/Content/watch/Red.uasset" SILENT=true
+[2016.01.26-09.14.17:041][400]LogSavePackage: Save=198.165848ms
+[2016.01.26-09.14.17:041][400]LogSavePackage: Moving '../../../../Users/XperienciaRender/Documents/Unreal Projects/TAG_HEUER/Saved/RedD881BA6E4DB48159DA2BA1B4B1DAF229.tmp' to '../../../../Users/XperienciaRender/Documents/Unreal Projects/TAG_HEUER/Content/watch/Red.uasset'
+[2016.01.26-09.14.17:055][400]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/watch/Reloj_01" FILE="../../../../Users/XperienciaRender/Documents/Unreal Projects/TAG_HEUER/Content/watch/Reloj_01.uasset" SILENT=true
+[2016.01.26-09.14.17:729][400]LogSavePackage: Save=673.101990ms
+[2016.01.26-09.14.17:729][400]LogSavePackage: Moving '../../../../Users/XperienciaRender/Documents/Unreal Projects/TAG_HEUER/Saved/Reloj_0150A93F3440747D7937347C8811712830.tmp' to '../../../../Users/XperienciaRender/Documents/Unreal Projects/TAG_HEUER/Content/watch/Reloj_01.uasset'
+[2016.01.26-09.14.17:768][400]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Reloj_01" FILE="../../../../Users/XperienciaRender/Documents/Unreal Projects/TAG_HEUER/Content/Reloj_01.uasset" SILENT=true
+[2016.01.26-09.14.17:770][400]LogSavePackage: Save=1.133093ms
+[2016.01.26-09.14.17:770][400]LogSavePackage: Moving '../../../../Users/XperienciaRender/Documents/Unreal Projects/TAG_HEUER/Saved/Reloj_019A434E274D4E431BE36DB5950CB0183E.tmp' to '../../../../Users/XperienciaRender/Documents/Unreal Projects/TAG_HEUER/Content/Reloj_01.uasset'
+[2016.01.26-09.14.17:780][400]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/watch/Reloj_01_PhysicsAsset" FILE="../../../../Users/XperienciaRender/Documents/Unreal Projects/TAG_HEUER/Content/watch/Reloj_01_PhysicsAsset.uasset" SILENT=true
+[2016.01.26-09.14.17:782][400]LogSavePackage: Save=1.299161ms
+[2016.01.26-09.14.17:782][400]LogSavePackage: Moving '../../../../Users/XperienciaRender/Documents/Unreal Projects/TAG_HEUER/Saved/Reloj_01_PhysicsAssetAFA74FB94454764F25960E83F48E2D07.tmp' to '../../../../Users/XperienciaRender/Documents/Unreal Projects/TAG_HEUER/Content/watch/Reloj_01_PhysicsAsset.uasset'
+[2016.01.26-09.14.17:785][400]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/watch/Reloj_01_Skeleton" FILE="../../../../Users/XperienciaRender/Documents/Unreal Projects/TAG_HEUER/Content/watch/Reloj_01_Skeleton.uasset" SILENT=true
+[2016.01.26-09.14.17:787][400]LogSavePackage: Save=0.882459ms
+[2016.01.26-09.14.17:787][400]LogSavePackage: Moving '../../../../Users/XperienciaRender/Documents/Unreal Projects/TAG_HEUER/Saved/Reloj_01_SkeletonA30561954FEEE2AB4AEE7998EDC29FF9.tmp' to '../../../../Users/XperienciaRender/Documents/Unreal Projects/TAG_HEUER/Content/watch/Reloj_01_Skeleton.uasset'
+[2016.01.26-09.14.17:801][400]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/watch/WHite" FILE="../../../../Users/XperienciaRender/Documents/Unreal Projects/TAG_HEUER/Content/watch/WHite.uasset" SILENT=true
+[2016.01.26-09.14.18:141][400]LogSavePackage: Save=339.446594ms
+[2016.01.26-09.14.18:141][400]LogSavePackage: Moving '../../../../Users/XperienciaRender/Documents/Unreal Projects/TAG_HEUER/Saved/WHite0E98674A42D6C413D45A1A9661D46DBF.tmp' to '../../../../Users/XperienciaRender/Documents/Unreal Projects/TAG_HEUER/Content/watch/WHite.uasset'
+[2016.01.26-09.18.22:442][292]Cmd: QUIT_EDITOR
+[2016.01.26-09.18.22:642][292]LogExit: Preparing to exit.
+[2016.01.26-09.18.23:518][292]LogExit: Editor shut down
+[2016.01.26-09.18.23:519][292]LogExit: Transaction tracking system shut down
+[2016.01.26-09.18.23:519][292]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004379144C20
+[2016.01.26-09.18.23:519][292]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000437A0CD800
+[2016.01.26-09.18.23:519][292]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000437A0CF560
+[2016.01.26-09.18.23:520][292]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004379B19760
+[2016.01.26-09.18.23:520][292]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004309C3C9A0
+[2016.01.26-09.18.23:520][292]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004306895BC0
+[2016.01.26-09.18.23:520][292]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000430D963C40
+[2016.01.26-09.18.23:559][292]LogExit: Object subsystem successfully closed.
+[2016.01.26-09.18.23:610][292]LogModuleManager: Shutting down and abandoning module CrashTracker (173)
+[2016.01.26-09.18.23:610][292]LogModuleManager: Shutting down and abandoning module SuperSearch (172)
+[2016.01.26-09.18.23:610][292]LogModuleManager: Shutting down and abandoning module SceneOutliner (171)
+[2016.01.26-09.18.23:610][292]LogModuleManager: Shutting down and abandoning module EditorWidgets (170)
+[2016.01.26-09.18.23:610][292]LogModuleManager: Shutting down and abandoning module CollectionManager (169)
+[2016.01.26-09.18.23:610][292]LogModuleManager: Shutting down and abandoning module StatsViewer (168)
+[2016.01.26-09.18.23:610][292]LogModuleManager: Shutting down and abandoning module FoliageEdit (167)
+[2016.01.26-09.18.23:610][292]LogModuleManager: Shutting down and abandoning module LandscapeEditor (166)
+[2016.01.26-09.18.23:611][292]LogModuleManager: Shutting down and abandoning module MeshPaint (165)
+[2016.01.26-09.18.23:611][292]LogModuleManager: Shutting down and abandoning module ActorPickerMode (164)
+[2016.01.26-09.18.23:611][292]LogModuleManager: Shutting down and abandoning module GeometryMode (163)
+[2016.01.26-09.18.23:611][292]LogModuleManager: Shutting down and abandoning module TextureAlignMode (162)
+[2016.01.26-09.18.23:611][292]LogModuleManager: Shutting down and abandoning module BspMode (161)
+[2016.01.26-09.18.23:611][292]LogModuleManager: Shutting down and abandoning module PlacementMode (160)
+[2016.01.26-09.18.23:611][292]LogModuleManager: Shutting down and abandoning module AutomationWorker (159)
+[2016.01.26-09.18.23:611][292]LogModuleManager: Shutting down and abandoning module CharacterAI (158)
+[2016.01.26-09.18.23:611][292]LogModuleManager: Shutting down and abandoning module SmartSnapping (157)
+[2016.01.26-09.18.23:611][292]LogModuleManager: Shutting down and abandoning module ViewportSnapping (156)
+[2016.01.26-09.18.23:611][292]LogModuleManager: Shutting down and abandoning module LogVisualizer (155)
+[2016.01.26-09.18.23:611][292]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (154)
+[2016.01.26-09.18.23:611][292]LogModuleManager: Shutting down and abandoning module IntroTutorials (153)
+[2016.01.26-09.18.23:611][292]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (152)
+[2016.01.26-09.18.23:611][292]LogModuleManager: Shutting down and abandoning module HardwareTargeting (151)
+[2016.01.26-09.18.23:611][292]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (150)
+[2016.01.26-09.18.23:612][292]LogModuleManager: Shutting down and abandoning module UndoHistory (149)
+[2016.01.26-09.18.23:612][292]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (148)
+[2016.01.26-09.18.23:612][292]LogModuleManager: Shutting down and abandoning module UserFeedback (147)
+[2016.01.26-09.18.23:612][292]LogModuleManager: Shutting down and abandoning module XmlParser (146)
+[2016.01.26-09.18.23:612][292]LogModuleManager: Shutting down and abandoning module Blutility (145)
+[2016.01.26-09.18.23:612][292]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (144)
+[2016.01.26-09.18.23:612][292]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (143)
+[2016.01.26-09.18.23:612][292]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (142)
+[2016.01.26-09.18.23:816][292]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (141)
+[2016.01.26-09.18.23:816][292]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (140)
+[2016.01.26-09.18.23:816][292]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (139)
+[2016.01.26-09.18.23:816][292]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (138)
+[2016.01.26-09.18.23:816][292]LogModuleManager: Shutting down and abandoning module InputBindingEditor (137)
+[2016.01.26-09.18.23:817][292]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (136)
+[2016.01.26-09.18.23:817][292]LogModuleManager: Shutting down and abandoning module SettingsEditor (135)
+[2016.01.26-09.18.23:817][292]LogModuleManager: Shutting down and abandoning module ProjectLauncher (134)
+[2016.01.26-09.18.23:817][292]LogModuleManager: Shutting down and abandoning module SessionFrontend (133)
+[2016.01.26-09.18.23:817][292]LogModuleManager: Shutting down and abandoning module ProfilerClient (132)
+[2016.01.26-09.18.23:817][292]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (131)
+[2016.01.26-09.18.23:817][292]LogModuleManager: Shutting down and abandoning module DeviceManager (130)
+[2016.01.26-09.18.23:817][292]LogModuleManager: Shutting down and abandoning module AutomationController (129)
+[2016.01.26-09.18.23:817][292]LogModuleManager: Shutting down and abandoning module AutomationWindow (128)
+[2016.01.26-09.18.23:817][292]LogModuleManager: Shutting down and abandoning module Layers (127)
+[2016.01.26-09.18.23:817][292]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (126)
+[2016.01.26-09.18.23:817][292]LogModuleManager: Shutting down and abandoning module DetailCustomizations (125)
+[2016.01.26-09.18.23:817][292]LogModuleManager: Shutting down and abandoning module PackagesDialog (124)
+[2016.01.26-09.18.23:818][292]LogModuleManager: Shutting down and abandoning module AssetRegistry (123)
+[2016.01.26-09.18.23:918][292]LogModuleManager: Shutting down and abandoning module Persona (122)
+[2016.01.26-09.18.23:918][292]LogModuleManager: Shutting down and abandoning module SlateReflector (121)
+[2016.01.26-09.18.23:918][292]LogModuleManager: Shutting down and abandoning module LevelEditor (120)
+[2016.01.26-09.18.23:919][292]LogModuleManager: Shutting down and abandoning module Kismet (119)
+[2016.01.26-09.18.23:919][292]LogModuleManager: Shutting down and abandoning module GraphEditor (118)
+[2016.01.26-09.18.23:919][292]LogModuleManager: Shutting down and abandoning module ClassViewer (117)
+[2016.01.26-09.18.23:919][292]LogModuleManager: Shutting down and abandoning module Toolbox (116)
+[2016.01.26-09.18.23:919][292]LogModuleManager: Shutting down and abandoning module ModuleUI (115)
+[2016.01.26-09.18.23:919][292]LogModuleManager: Shutting down and abandoning module MovieSceneTools (114)
+[2016.01.26-09.18.23:919][292]LogModuleManager: Shutting down and abandoning module OutputLog (113)
+[2016.01.26-09.18.23:919][292]LogModuleManager: Shutting down and abandoning module GammaUI (112)
+[2016.01.26-09.18.23:919][292]LogModuleManager: Shutting down and abandoning module Documentation (111)
+[2016.01.26-09.18.23:919][292]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (110)
+[2016.01.26-09.18.23:919][292]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (109)
+[2016.01.26-09.18.23:919][292]LogModuleManager: Shutting down and abandoning module HTTP (108)
+[2016.01.26-09.18.23:919][292]LogModuleManager: Shutting down and abandoning module AnalyticsET (107)
+[2016.01.26-09.18.23:919][292]LogModuleManager: Shutting down and abandoning module Analytics (106)
+[2016.01.26-09.18.23:919][292]LogModuleManager: Shutting down and abandoning module AITestSuite (105)
+[2016.01.26-09.18.23:919][292]LogModuleManager: Shutting down and abandoning module GameplayDebugger (104)
+[2016.01.26-09.18.23:919][292]LogModuleManager: Shutting down and abandoning module AIModule (103)
+[2016.01.26-09.18.23:919][292]LogModuleManager: Shutting down and abandoning module ProfilerService (102)
+[2016.01.26-09.18.24:064][292]LogModuleManager: Shutting down and abandoning module TaskGraph (101)
+[2016.01.26-09.18.24:064][292]LogModuleManager: Shutting down and abandoning module SlateRemote (100)
+[2016.01.26-09.18.24:064][292]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (99)
+[2016.01.26-09.18.24:064][292]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (98)
+[2016.01.26-09.18.24:064][292]LogModuleManager: Shutting down and abandoning module CableComponent (97)
+[2016.01.26-09.18.24:064][292]LogModuleManager: Shutting down and abandoning module MessagingDebugger (96)
+[2016.01.26-09.18.24:064][292]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (95)
+[2016.01.26-09.18.24:064][292]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (94)
+[2016.01.26-09.18.24:064][292]LogModuleManager: Shutting down and abandoning module PluginsEditor (93)
+[2016.01.26-09.18.24:064][292]LogModuleManager: Shutting down and abandoning module MainFrame (92)
+[2016.01.26-09.18.24:064][292]LogModuleManager: Shutting down and abandoning module EpicSurvey (91)
+[2016.01.26-09.18.24:064][292]LogModuleManager: Shutting down and abandoning module DesktopPlatform (90)
+[2016.01.26-09.18.24:064][292]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (89)
+[2016.01.26-09.18.24:064][292]LogModuleManager: Shutting down and abandoning module HotReload (88)
+[2016.01.26-09.18.24:064][292]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (87)
+[2016.01.26-09.18.24:064][292]LogModuleManager: Shutting down and abandoning module UObjectPlugin (86)
+[2016.01.26-09.18.24:064][292]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (85)
+[2016.01.26-09.18.24:064][292]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (84)
+[2016.01.26-09.18.24:064][292]LogModuleManager: Shutting down and abandoning module SourceControl (83)
+[2016.01.26-09.18.24:064][292]LogModuleManager: Shutting down and abandoning module GitSourceControl (82)
+[2016.01.26-09.18.24:064][292]LogModuleManager: Shutting down and abandoning module ExportObjectPlugin (81)
+[2016.01.26-09.18.24:064][292]LogModuleManager: Shutting down and abandoning module BlankPlugin (80)
+[2016.01.26-09.18.24:064][292]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (79)
+[2016.01.26-09.18.24:064][292]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (78)
+[2016.01.26-09.18.24:064][292]LogModuleManager: Shutting down and abandoning module ContentBrowser (77)
+[2016.01.26-09.18.24:065][292]LogModuleManager: Shutting down and abandoning module Paper2DEditor (76)
+[2016.01.26-09.18.24:065][292]LogModuleManager: Shutting down and abandoning module ScriptPlugin (75)
+[2016.01.26-09.18.24:065][292]LogModuleManager: Shutting down and abandoning module UdpMessaging (74)
+[2016.01.26-09.18.24:166][292]LogModuleManager: Shutting down and abandoning module Paper2D (73)
+[2016.01.26-09.18.24:166][292]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (72)
+[2016.01.26-09.18.24:167][292]LogModuleManager: Shutting down and abandoning module Media (71)
+[2016.01.26-09.18.24:167][292]LogModuleManager: Shutting down and abandoning module WmfMedia (70)
+[2016.01.26-09.18.24:167][292]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (69)
+[2016.01.26-09.18.24:167][292]LogModuleManager: Shutting down and abandoning module PropertyEditor (68)
+[2016.01.26-09.18.24:167][292]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (67)
+[2016.01.26-09.18.24:167][292]LogModuleManager: Shutting down and abandoning module FunctionalTesting (66)
+[2016.01.26-09.18.24:167][292]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (65)
+[2016.01.26-09.18.24:167][292]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (64)
+[2016.01.26-09.18.24:168][292]LogModuleManager: Shutting down and abandoning module MessageLog (63)
+[2016.01.26-09.18.24:168][292]LogModuleManager: Shutting down and abandoning module Sequencer (62)
+[2016.01.26-09.18.24:168][292]LogModuleManager: Shutting down and abandoning module AssetTools (61)
+[2016.01.26-09.18.24:168][292]LogModuleManager: Shutting down and abandoning module UMGEditor (60)
+[2016.01.26-09.18.24:168][292]LogModuleManager: Shutting down and abandoning module UMG (59)
+[2016.01.26-09.18.24:168][292]LogModuleManager: Shutting down and abandoning module Slate (58)
+[2016.01.26-09.18.24:168][292]LogModuleManager: Shutting down and abandoning module EditorStyle (57)
+[2016.01.26-09.18.24:170][292]LogModuleManager: Shutting down and abandoning module SessionServices (56)
+[2016.01.26-09.18.24:170][292]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (55)
+[2016.01.26-09.18.24:170][292]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (54)
+[2016.01.26-09.18.24:170][292]LogModuleManager: Shutting down and abandoning module XAudio2 (53)
+[2016.01.26-09.18.24:170][292]LogModuleManager: Shutting down and abandoning module Networking (51)
+[2016.01.26-09.18.24:170][292]LogModuleManager: Shutting down and abandoning module Core (50)
+[2016.01.26-09.18.24:170][292]LogModuleManager: Shutting down and abandoning module KismetCompiler (49)
+[2016.01.26-09.18.24:170][292]LogModuleManager: Shutting down and abandoning module PhysXFormats (48)
+[2016.01.26-09.18.24:170][292]LogModuleManager: Shutting down and abandoning module MeshUtilities (47)
+[2016.01.26-09.18.24:170][292]LogModuleManager: Shutting down and abandoning module DerivedDataCache (46)
+[2016.01.26-09.18.24:185][292]LogDerivedDataCache: Shutdown
+[2016.01.26-09.18.24:185][292]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (45)
+[2016.01.26-09.18.24:185][292]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (44)
+[2016.01.26-09.18.24:185][292]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (43)
+[2016.01.26-09.18.24:185][292]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (42)
+[2016.01.26-09.18.24:185][292]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (41)
+[2016.01.26-09.18.24:185][292]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (40)
+[2016.01.26-09.18.24:185][292]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (39)
+[2016.01.26-09.18.24:185][292]LogModuleManager: Shutting down and abandoning module ImageWrapper (38)
+[2016.01.26-09.18.24:185][292]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (37)
+[2016.01.26-09.18.24:185][292]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (36)
+[2016.01.26-09.18.24:185][292]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (35)
+[2016.01.26-09.18.24:185][292]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (34)
+[2016.01.26-09.18.24:185][292]LogModuleManager: Shutting down and abandoning module Messaging (33)
+[2016.01.26-09.18.24:185][292]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (32)
+[2016.01.26-09.18.24:185][292]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (31)
+[2016.01.26-09.18.24:185][292]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (30)
+[2016.01.26-09.18.24:185][292]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (29)
+[2016.01.26-09.18.24:185][292]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (28)
+[2016.01.26-09.18.24:185][292]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (27)
+[2016.01.26-09.18.24:185][292]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (26)
+[2016.01.26-09.18.24:185][292]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (25)
+[2016.01.26-09.18.24:185][292]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (24)
+[2016.01.26-09.18.24:185][292]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (23)
+[2016.01.26-09.18.24:185][292]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (22)
+[2016.01.26-09.18.24:185][292]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (21)
+[2016.01.26-09.18.24:185][292]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2016.01.26-09.18.24:185][292]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2016.01.26-09.18.24:185][292]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2016.01.26-09.18.24:185][292]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2016.01.26-09.18.24:185][292]LogModuleManager: Shutting down and abandoning module OculusRift (15)
+[2016.01.26-09.18.24:185][292]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2016.01.26-09.18.24:185][292]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2016.01.26-09.18.24:185][292]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2016.01.26-09.18.24:185][292]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2016.01.26-09.18.24:185][292]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2016.01.26-09.18.24:186][292]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2016.01.26-09.18.24:186][292]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2016.01.26-09.18.24:186][292]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.01.26-09.18.24:186][292]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.01.26-09.18.24:186][292]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.01.26-09.18.24:186][292]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.01.26-09.18.24:186][292]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.01.26-09.18.24:186][292]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.01.26-09.18.24:186][292]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.01.26-09.18.24:187][292]LogExit: Exiting.
+[2016.01.26-09.18.24:190][292]Log file closed, 01/26/16 10:18:24
